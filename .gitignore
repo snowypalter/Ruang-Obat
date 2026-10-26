@@ -28,3 +28,4 @@ Thumbs.db
 .git-backup
 assets/docs/hermes-putia.txt
 assets/docs/
+assets/pdf/*.txt
