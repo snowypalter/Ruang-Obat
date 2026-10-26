@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruang Obat — Edukasi Farmasi Berbasis Sumber</title>
+<meta name="description" content="Website edukasi obat berbasis pustaka: farmakologi, bentuk & penggunaan, bahan herbal, farmakope, dan farmakognosi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<style>
+.hero-search { max-width: 600px; margin: 0 auto 28px; position: relative; }
+.hero-search input {
+  width: 100%; padding: 16px 20px 16px 48px; font-size: 1rem;
+  border: 2px solid rgba(255,255,255,0.35); border-radius: 999px;
+  background: rgba(255,255,255,0.95); color: #1e293b; outline: none; transition: all 0.2s;
+}
+.hero-search input:focus { border-color: #fff; box-shadow: 0 0 0 5px rgba(255,255,255,0.18); }
+.hero-search::before { content: '🔍'; position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 1.15rem; }
+</style>
+<meta property="og:title" content="Ruang Obat — Kenali obatmu, pahami langkahnya">
+<meta property="og:description" content="Portal edukasi farmasi dengan konten terstruktur dari perpustakaan, sitasi terpercaya, dan quiz interaktif.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ruangobat.id/">
+<meta property="og:image" content="https://ruangobat.id/assets/images/hero-background.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ruang Obat — Kenali obatmu, pahami langkahnya">
+<meta name="twitter:description" content="Portal edukasi farmasi dengan konten terstruktur dari perpustakaan, sitasi terpercaya, dan quiz interaktif.">
+<link rel="canonical" href="https://ruangobat.id/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Ruang Obat",
+  "url": "https://ruangobat.id",
+  "description": "Website edukasi farmasi berbasis pustaka",
+  "inLanguage": "id",
+  "about": {
+    "@type": "Thing",
+    "name": "Edukasi Farmasi"
+  }
+}
+</script>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f766e">
+<link rel="apple-touch-icon" href="assets/images/logo-icon.png">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="index.html" class="active"><img src="assets/images/icons/kling1-temple.png" alt="" class="nav-icon">Beranda</a>
+      <a href="pages/farmakologi-dasar.html"><img src="assets/images/icons/kling0-molecule.png" alt="" class="nav-icon">Farmakologi</a>
+      <a href="pages/bentuk-penggunaan.html"><img src="assets/images/icons/kling1-pills.png" alt="" class="nav-icon">Penggunaan</a>
+      <a href="pages/bahan-herbal.html"><img src="assets/images/icons/kling0-herb.png" alt="" class="nav-icon">Herbal</a>
+      <a href="pages/farmakope.html"><img src="assets/images/icons/kling0-book-caduceus.png" alt="" class="nav-icon">Farmakope</a>
+      <a href="pages/istilah.html"><img src="assets/images/icons/kling1-magnifier.png" alt="" class="nav-icon">Istilah</a>
+      <a href="pages/tentang.html"><img src="assets/images/icons/kling0-book-open.png" alt="" class="nav-icon">Tentang</a>
+      <a href="pages/aksesibilitas.html">Aksesibilitas</a>
+      <a href="pages/privasi.html">Privasi</a>
+      <a href="pages/studi-kasus.html"><img src="assets/images/icons/kling0-magnifier-pill.png" alt="" class="nav-icon">Studi Kasus</a>
+      <a href="pages/flashcard.html"><img src="assets/images/icons/kling0-book-alt.png" alt="" class="nav-icon">Flashcard</a>
+      <a href="pages/pustaka.html"><img src="assets/images/icons/kling0-books-stack.png" alt="" class="nav-icon">Pustaka</a>
+      <a href="pages/quiz-farmakologi-dasar.html">Quiz</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<nav class="mobile-nav">
+  <a href="index.html"><img src="assets/images/icons/kling1-temple.png" alt="" class="nav-icon">Beranda</a>
+  <a href="pages/farmakologi-dasar.html"><img src="assets/images/icons/kling0-molecule.png" alt="" class="nav-icon">Farmakologi</a>
+  <a href="pages/bentuk-penggunaan.html"><img src="assets/images/icons/kling1-pills.png" alt="" class="nav-icon">Penggunaan</a>
+  <a href="pages/bahan-herbal.html"><img src="assets/images/icons/kling0-herb.png" alt="" class="nav-icon">Herbal</a>
+  <a href="pages/farmakope.html"><img src="assets/images/icons/kling0-book-caduceus.png" alt="" class="nav-icon">Farmakope</a>
+  <a href="pages/istilah.html"><img src="assets/images/icons/kling1-magnifier.png" alt="" class="nav-icon">Istilah</a>
+  <a href="pages/tentang.html"><img src="assets/images/icons/kling0-book-open.png" alt="" class="nav-icon">Tentang</a>
+  <a href="pages/aksesibilitas.html">Aksesibilitas</a>
+  <a href="pages/privasi.html">Privasi</a>
+  <a href="pages/studi-kasus.html"><img src="assets/images/icons/kling0-magnifier-pill.png" alt="" class="nav-icon">Studi Kasus</a>
+  <a href="pages/flashcard.html"><img src="assets/images/icons/kling0-book-alt.png" alt="" class="nav-icon">Flashcard</a>
+  <a href="pages/pustaka.html"><img src="assets/images/icons/kling0-books-stack.png" alt="" class="nav-icon">Pustaka</a>
+</nav>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-up">
+      <div class="hero-eyebrow">Ruang Obat</div>
+      <h1 class="hero-title">Kenali Obatmu,<br>Pahami Langkahnya</h1>
+      <p class="hero-subtitle">Platform edukasi farmasi berbasis sumber tepercaya. Pelajari farmakologi, bentuk obat, bahan herbal, dan standar farmakope dengan konten yang akurat dan mudah dipahami.</p>
+      <div class="hero-search">
+        <input type="text" id="heroSearch" placeholder="Cari topik, istilah, atau materi..." aria-label="Cari materi">
+      </div>
+      <div class="hero-cta">
+        <a href="pages/farmakologi-dasar.html" class="btn btn-primary">Jelajahi Materi</a>
+        <a href="pages/istilah.html" class="btn btn-secondary">Lihat Istilah</a>
+      </div>
+      <div class="hero-trust">
+        <span class="hero-trust-icon">✓</span>
+        <span>Ditinjau oleh Apoteker — Konten berbasis Kemenkes, BPOM, dan WHO</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="character-section">
+    <div class="character-decoration"></div>
+    <div class="character-container">
+      <div class="character-image">
+        <img src="assets/images/character-concept.webp" alt="Asclepios — Future Pharmacist" loading="lazy">
+      </div>
+      <div class="character-content">
+        <div class="character-badge">Mascot Resmi Ruang Obat</div>
+        <h2>Jaga Obat, Jaga Kesehatan</h2>
+        <p>Website ini terinspirasi dari <strong>Asclepios</strong>, dewi penyembuh Yunani kuno yang melambangkan kebijaksanaan obat-obatan. Dengan menggabungkan tradisi pengobatan alam dan sains farmasi modern, kami menghadirkan konten edukasi yang dapat diandalkan untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian.</p>
+        <p>Setiap konten telah ditinjau dan disusun berdasarkan referensi otoritatif: <strong>Kemenkes RI</strong>, <strong>BPOM</strong>, dan <strong>WHO</strong>.</p>
+        <blockquote class="character-quote">
+          Obat bukan sekadar bahan, tetapi jembatan antara ilmu, alam, dan kehidupan yang lebih baik.
+          <footer>— Asclepios, Future Pharmacist</footer>
+        </blockquote>
+        <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories-section">
+    <div class="section-header">
+      <h2>Pilih Topik untuk Mulai</h2>
+      <p>Setiap kategori dipecah menjadi materi pendek, istilah penting, dan referensi sumber yang terpercaya.</p>
+    </div>
+    <div class="card-grid">
+      <a href="pages/farmakologi-dasar.html" class="card">
+        <div class="card-icon"><img src="assets/images/icons/kling0-molecule.png" alt="Farmakologi"></div>
+        <h3 class="card-title">Farmakologi Dasar</h3>
+        <p class="card-desc">Definisi, sejarah, istilah penting, dan cara kerja obat di tubuh. Pelajari absorpsi, distribusi, metabolisme, dan ekskresi obat.</p>
+        <div class="card-meta"><span>📚 2 Materi</span><span>⏱️ 10 menit</span></div>
+      </a>
+      <a href="pages/bentuk-penggunaan.html" class="card">
+        <div class="card-icon"><img src="assets/images/icons/kling1-pills.png" alt="Bentuk & Penggunaan"></div>
+        <h3 class="card-title">Bentuk & Penggunaan Obat</h3>
+        <p class="card-desc">Reseptor, agonis/antagonis, efek terapeutik, dan variabilitas respons. Pahami cara kerja obat di level seluler.</p>
+        <div class="card-meta"><span>📚 2 Materi</span><span>⏱️ 8 menit</span></div>
+      </a>
+      <a href="pages/bahan-herbal.html" class="card">
+        <div class="card-icon"><img src="assets/images/icons/kling0-herb.png" alt="Bahan Herbal"></div>
+        <h3 class="card-title">Bahan Herbal & Suplemen</h3>
+        <p class="card-desc">Simplisia, ekstrak, standar mutu, dan keamanan penggunaan herbal. Kenali perbedaan jamu, suplemen, dan obat herbal terstandar.</p>
+        <div class="card-meta"><span>📚 2 Materi</span><span>⏱️ 12 menit</span></div>
+      </a>
+      <a href="pages/farmakope.html" class="card">
+        <div class="card-icon"><img src="assets/images/icons/kling0-book-caduceus.png" alt="Farmakope"></div>
+        <h3 class="card-title">Farmakope & Standar Obat</h3>
+        <p class="card-desc">Sejarah Farmakope Indonesia dan standar kualitas obat. Pahami regulasi BPOM dan Farmakope Indonesia Edisi V.</p>
+        <div class="card-meta"><span>📚 2 Materi</span><span>⏱️ 7 menit</span></div>
+      </a>
+      <a href="pages/farmakognosi.html" class="card">
+        <div class="card-icon"><img src="assets/images/icons/kling0-book-open.png" alt="Farmakognosi"></div>
+        <h3 class="card-title">Farmakognosi & Fitokimia</h3>
+        <p class="card-desc">Sejarah penggunaan tumbuhan obat, simplisia, ekstraksi, dan senyawa bioaktif. Pelajari alkaloida, flavonoid, dan terpenoid.</p>
+        <div class="card-meta"><span>📚 2 Materi</span><span>⏱️ 9 menit</span></div>
+      </a>
+      <a href="pages/pustaka.html" class="card">
+        <div class="card-icon"><img src="assets/images/icons/icon-books-stack.png" alt="Pustaka"></div>
+        <h3 class="card-title">Pustaka & Referensi</h3>
+        <p class="card-desc">Koleksi buku referensi farmasi dan sumber terpercaya. Akses daftar pustaka yang digunakan dalam konten website.</p>
+        <div class="card-meta"><span>📚 1 Materi</span><span>⏱️ 5 menit</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="section-header">
+      <h2>Mengapa Ruang Obat?</h2>
+      <p>Kami menghadirkan konten edukasi farmasi yang berbeda dengan fokus pada akurasi, aksesibilitas, dan kemudahan pemahaman.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-icon"><img src="assets/images/icons/kling0-seal.png" alt="Verified"></div>
+        <h3>Terverifikasi Sumber</h3>
+        <p>Setiap konten disusun berdasarkan referensi otoritatif: Kemenkes, BPOM, dan WHO. Transparansi adalah kunci.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><img src="assets/images/icons/kling1-magnifier.png" alt="Target"></div>
+        <h3>Mudah Dipahami</h3>
+        <p>Konten disusun dengan bahasa sederhana, tanpa jargon berlebihan. Cocok untuk masyarakat umum maupun mahasiswa farmasi.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><img src="assets/images/icons/kling0-book-green.png" alt="Mobile"></div>
+        <h3>Akses di Mana Saja</h3>
+        <p>Website responsif yang optimal di desktop maupun mobile. Akses materi kapan saja, di mana saja, tanpa instalasi aplikasi.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><img src="assets/images/icons/kling0-seal-2.png" alt="Secure"></div>
+        <h3>Aman & Tepercaya</h3>
+        <p>Tidak ada kalkulator dosis otomatis. Selalu konsultasikan dengan tenaga kesehatan untuk saran pribadi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <div class="section-header">
+      <h2>Apa Kata Mereka?</h2>
+      <p>Kami berkomitmen untuk menyediakan edukasi farmasi yang berkualitas dan mudah dipahami.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="assets/images/aset-kling-3.png" alt="Testimoni 1" loading="lazy">
+        <p>"Website ini sangat membantu saya memahami konsep farmakologi dengan cara yang sederhana dan mudah diingat."</p>
+        <div class="testimonial-author">— Mahasiswa Farmasi</div>
+      </div>
+      <div class="testimonial-card">
+        <img src="assets/images/aset-kling-2.png" alt="Testimoni 2" loading="lazy">
+        <p>"Konten yang terstruktur dan disusun dengan baik. Referensi dari Kemenkes dan BPOM membuat saya percaya pada informasinya."</p>
+        <div class="testimonial-author">— Apoteker</div>
+      </div>
+      <div class="testimonial-card">
+        <img src="assets/images/aset-kling-1.png" alt="Testimoni 3" loading="lazy">
+        <p>"Fitur quiz dan flashcard sangat interaktif. Cocok untuk belajar farmasi secara mandiri."</p>
+        <div class="testimonial-author">— Mahasiswa Keperawatan</div>
+      </div>
+      <div class="testimonial-card">
+        <img src="assets/images/aset-kling-0.png" alt="Testimoni 4" loading="lazy">
+        <p>"Desain yang bersih dan nyaman dibaca. Informasi tentang obat herbal sangat lengkap dan bermanfaat."</p>
+        <div class="testimonial-author">— Pengunjung</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="disclaimer">
+    <strong>Penting:</strong> Ini adalah materi edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Sumber Terpercaya</h4>
+      <ul>
+        <li><a href="https://www.kemkes.go.id" target="_blank">Kementerian Kesehatan RI</a></li>
+        <li><a href="https://www.pom.go.id" target="_blank">BPOM RI</a></li>
+        <li><a href="https://www.who.int" target="_blank">WHO</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Kategori</h4>
+      <ul>
+        <li><a href="pages/farmakologi-dasar.html">Farmakologi Dasar</a></li>
+        <li><a href="pages/bentuk-penggunaan.html">Bentuk & Penggunaan</a></li>
+        <li><a href="pages/bahan-herbal.html">Bahan Herbal</a></li>
+        <li><a href="pages/farmakope.html"><img src="assets/images/icons/kling0-book-caduceus.png" alt="" class="nav-icon">Farmakope</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4><img src="assets/images/icons/kling0-book-open.png" alt="" class="nav-icon">Tentang</h4>
+      <ul>
+        <li><a href="pages/istilah.html"><img src="assets/images/icons/kling1-magnifier.png" alt="" class="nav-icon">Istilah</a></li>
+        <li><a href="pages/studi-kasus.html"><img src="assets/images/icons/kling0-magnifier-pill.png" alt="" class="nav-icon">Studi Kasus</a></li>
+        <li><a href="pages/flashcard.html"><img src="assets/images/icons/kling0-book-alt.png" alt="" class="nav-icon">Flashcard</a></li>
+        <li><a href="pages/pustaka.html"><img src="assets/images/icons/kling0-books-stack.png" alt="" class="nav-icon">Pustaka</a></li>
+        <li><a href="pages/bookmarks.html">Materi Tersimpan</a></li>
+        <li><a href="pages/tentang.html">Tentang Ruang Obat</a></li>
+        <li><a href="pages/privasi.html">Kebijakan Privasi</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+
+  const searchInput = document.getElementById('heroSearch');
+  const searchResults = document.getElementById('searchResults');
+
+  async function loadData() {
+    const [materiRes, istilahRes] = await Promise.all([
+      fetch('data/materi.json').then(r => r.json()),
+      fetch('data/istilah.json').then(r => r.json())
+    ]);
+    return { materi: materiRes, istilah: istilahRes };
+  }
+
+  function highlight(text, query) {
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+  }
+
+  searchInput.addEventListener('input', async (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    if (!q) { searchResults.style.display = 'none'; searchResults.innerHTML = ''; return; }
+
+    const data = await loadData();
+    let results = [];
+
+    for (cat of (data.materi.kategori || [])) {
+      for (m of (cat.materi || [])) {
+        const titleMatch = m.judul.toLowerCase().includes(q);
+        const contentMatch = (m.konten || []).some(c => c.teks && c.teks.toLowerCase().includes(q));
+        if (titleMatch || contentMatch) {
+          results.push({ type: 'Materi', title: m.judul, meta: cat.nama, href: `pages/${m.id || 'farmakologi-dasar'}.html` });
+        }
+      }
+    }
+
+    for (item of (data.istilah.istilah || [])) {
+      if (item.istilah.toLowerCase().includes(q) || item.definisi.toLowerCase().includes(q)) {
+        results.push({ type: 'Istilah', title: item.istilah, meta: item.definisi.slice(0, 80) + '...', href: 'pages/istilah.html' });
+      }
+    }
+
+    if (results.length === 0) {
+      searchResults.innerHTML = '<div class="search-no-results">Tidak ada hasil untuk \\'' + q + '\\'</div>';
+    } else {
+      searchResults.innerHTML = results.slice(0, 8).map(r =>
+        `<div class="search-result-item" onclick="window.location.href='${r.href}'">
+          <div class="search-result-title">${r.type}: ${r.title}</div>
+          <div class="search-result-meta">${r.meta}</div>
+        </div>`
+      ).join('');
+    }
+    searchResults.style.display = 'block';
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+      searchResults.style.display = 'none';
+    }
+  });
+
+  window.toggleBookmark = function(btn) {
+    btn.classList.toggle('saved');
+    const isSaved = btn.classList.contains('saved');
+    btn.innerHTML = isSaved ? '★ Tersimpan' : '☆ Simpan Materi';
+    if (isSaved) {
+      const title = document.querySelector('h1')?.textContent || 'Materi';
+      let saved = JSON.parse(localStorage.getItem('ruangobat_bookmarks') || '[]');
+      if (!saved.find(b => b.title === title)) {
+        saved.push({ title, url: location.href, savedAt: new Date().toISOString() });
+        localStorage.setItem('ruangobat_bookmarks', JSON.stringify(saved));
+      }
+    }
+  };
+
+  const darkModeBtn = document.createElement('button');
+  darkModeBtn.className = 'dark-mode-toggle';
+  darkModeBtn.innerHTML = '🌙';
+  darkModeBtn.setAttribute('aria-label', 'Toggle dark mode');
+  darkModeBtn.onclick = () => {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('ruangobat_darkmode', isDark ? 'true' : 'false');
+    darkModeBtn.innerHTML = isDark ? '☀️' : '🌙';
+  };
+  document.body.appendChild(darkModeBtn);
+
+  if (localStorage.getItem('ruangobat_darkmode') === 'true') {
+    document.body.classList.add('dark-mode');
+    darkModeBtn.innerHTML = '☀️';
+  }
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
+  let deferredPrompt;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    deferredPrompt = e;
+    setTimeout(() => {
+      if (deferredPrompt) {
+        alert('Ruang Obat bisa diinstall sebagai app! Cek menu browser Anda untuk "Add to Home Screen" atau "Install App".');
+      }
+    }, 5000);
+  });
+</script>
+</body>
+</html>

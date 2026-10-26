@@ -1,0 +1,652 @@
+{
+  "kategori": [
+    {
+      "id": "farmakologi-dasar",
+      "nama": "Farmakologi Dasar",
+      "deskripsi": "Pengenalan ilmu obat: definisi, sejarah, istilah penting, dan cara kerja obat di tubuh.",
+      "icon": "microscope",
+      "warna": "#0f766e",
+      "materi": [
+        {
+          "id": "apa-itu-farmakologi",
+          "judul": "Apa Itu Farmakologi?",
+          "ringkasan": "Farmakologi adalah ilmu tentang obat — dari sejarah, sumber, cara kerja, sampai penggunaan yang aman.",
+          "konten": [
+            {
+              "heading": "Definisi",
+              "teks": "Kata 'farmakologi' berasal dari bahasa Yunani: 'pharmakon' berarti obat, dan 'logos' berarti ilmu. Secara luas, farmakologi adalah ilmu pengetahuan tentang obat yang mencakup sejarah, sumber, sifat fisika dan kimia, cara meracik, efek terhadap tubuh, mekanisme kerja, absorpsi, distribusi, metabolisme, ekskresi, serta penggunaan untuk terapi."
+            },
+            {
+              "heading": "Sejarah Singkat",
+              "teks": "Farmakologi dibagi menjadi periode kuno dan modern. Periode kuno (sebelum tahun 1700) bertumpu pada pengamatan empirik, tercatat dalam Materia Medika oleh Dioscorides. Periode modern dimulai pada abad 1819 dengan penelitian sistematis tentang obat dan cara kerjanya. Tokoh penting: Rudolf Buchheim (pendiri fakultas farmasi pertama di dunia), Oswald Schmeideberg ('Bapak farmakologi'), dan John J. Abel (pendiri jurnal farmakologi pertama)."
+            },
+            {
+              "heading": "Ruang Lingkup",
+              "teks": "Farmakologi memiliki cabang yang berkembang menjadi disiplin tersendiri: farmakologi klinis (efek obat pada manusia), farmasi (cara membuat dan menyimpan obat), biofarmasi (bentuk obat yang paling efektif diserap tubuh), toksikologi (zat berbahaya dan penanganan keracunan), dan farmakovigilans (pemantauan efek samping obat yang dipasarkan)."
+            },
+            {
+              "heading": "Sumber Obat",
+              "teks": "Obat berasal dari tiga sumber utama: (1) Alami — tumbuhan (morphine, quinine), hewan (insulin), mineral (magnesium sulfat), mikroorganisme (penisilin dari tanah); (2) Sintetis — dibuat di laboratorium (parasetamol, aspirin); (3) Rekayasa genetika — insulin rekombinan, antibodi monoklonal."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Farmakokinetik",
+              "definisi": "Ilmu yang mempelajari reaksi tubuh dalam menerima obat: absorpsi, distribusi, metabolisme, dan ekskresi."
+            },
+            {
+              "istilah": "Farmakodinamik",
+              "definisi": "Studi tentang tempat dan mekanisme kerja serta efek fisiologis dan biokimiawi obat pada tubuh."
+            },
+            {
+              "istilah": "Farmakoterapi",
+              "definisi": "Penggunaan obat untuk pencegahan dan penyembuhan penyakit. Jika obat dari tanaman, disebut fitoterapi."
+            },
+            {
+              "istilah": "Farmakognosi",
+              "definisi": "Cabang ilmu yang mempelajari sifat tumbuhan dan bahan lain yang merupakan sumber obat."
+            },
+            {
+              "istilah": "Posologi",
+              "definisi": "Ilmu yang mempelajari dosis obat, cara pemberian, dan bentuk sediaan."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Buku Ajar Farmakologi 2022",
+              "penerbit": "Zahir Publishing",
+              "tahun": "2022",
+              "bab": "Bab 1"
+            },
+            {
+              "nama": "BPOM RI Peraturan No 24 tahun 2021",
+              "tahun": "2021",
+              "url": "https://jdih.pom.go.id"
+            }
+          ],
+          "disclaimer": "Obat harus digunakan sesuai resep dan petugas kesehatan. Jangan mengubah dosis tanpa konsultasi.",
+          "tanggal_peninjauan": "2026-10-24",
+          "kategori_id": "farmakologi-dasar"
+        },
+        {
+          "id": "farmakokinetik",
+          "judul": "Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+          "ringkasan": "Proses absorpsi, distribusi, metabolisme, dan ekskresi obat yang menentukan konsentrasi obat di tubuh.",
+          "konten": [
+            {
+              "heading": "Absorpsi",
+              "teks": "Absorpsi adalah masuknya obat ke dalam sirkulasi sistemik. Lokasi absorpsi tergantung pada cara pemberian: oral (usus), topikal (kulit), inhalasi (paru), intravena (langsung ke darah). Faktor yang mempengaruhi: kelarutan obat, luas permukaan absorpsi, aliran darah, dan kondisi gastrointestinal."
+            },
+            {
+              "heading": "Distribusi",
+              "teks": "Setelah masuk ke aliran darah, obat beredar ke seluruh tubuh. Distribusi dipengaruhi oleh aliran darah organ, ikatan dengan protein plasma (albumin), dan kemampuan menembus membrane sel (misal blood-brain barrier). Obat yang terikat protein tidak aktif secara farmakologis."
+            },
+            {
+              "heading": "Metabolisme",
+              "teks": "Metabolisme adalah transformasi obat oleh tubuh, terutama di hati oleh enzim cytochrome P450. Metabolisme bisa mengaktivasi obat (prodrug) atau meninaktivasinya. Induksi atau inhibisi enzim dapat mempengaruhi efektivitas obat lain yang dikonsumsi bersamaan."
+            },
+            {
+              "heading": "Ekskresi",
+              "teks": "Ekskresi adalah pengeluaran obat dan metabolnya dari tubuh. Organ utama: ginjal (melalui urin), hati (melalui empedu), paru (gas), dan kelenjar susu (laktasi). Ginjal mengekskresi obat yang terlarut dalam air; gangguan ginjal dapat meningkatkan risiko akumulasi obat."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Bioavailabilitas",
+              "definisi": "Persentase dosis obat yang mencapai sirkulasi sistemik tanpa diubah."
+            },
+            {
+              "istilah": "Volume Distribusi",
+              "definisi": "Hubungan antara jumlah obat di tubuh dengan konsentrasi plasma."
+            },
+            {
+              "istilah": "Clearance",
+              "definisi": "Volume plasma yang dibersihkan dari obat per satuan waktu."
+            },
+            {
+              "istilah": "T½ (Waktu Paruh)",
+              "definisi": "Waktu yang dibutuhkan untuk menurunkan konsentrasi plasma obat setengahnya."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Buku Ajar Farmakologi 2022",
+              "penerbit": "Zahir Publishing",
+              "tahun": "2022",
+              "bab": "Bab 2"
+            },
+            {
+              "nama": "Basic & Clinical Pharmacology 14th Ed",
+              "penerbit": "McGraw-Hill",
+              "tahun": "2018",
+              "bab": "Chapter 1"
+            }
+          ],
+          "disclaimer": "Informasi ini untuk edukasi umum. Konsultasikan penggunaan obat dengan dokter atau apoteker.",
+          "tanggal_peninjauan": "2026-10-25",
+          "kategori_id": "farmakologi-dasar"
+        }
+      ]
+    },
+    {
+      "id": "bentuk-penggunaan",
+      "nama": "Bentuk & Penggunaan Obat",
+      "deskripsi": "Prinsip pemberian obat yang benar, bentuk sediaan, dan cara kerja obat di tubuh.",
+      "icon": "pill",
+      "warna": "#1d4ed8",
+      "materi": [
+        {
+          "id": "cara-obat-bekerja",
+          "judul": "Cara Obat Bekerja di Tubuh",
+          "ringkasan": "Obat bekerja dengan mengikat reseptor di sel tubuh, mengubah aktivitas biologis untuk menghasilkan efek terapeutik.",
+          "konten": [
+            {
+              "heading": "Mekanisme Dasar",
+              "teks": "Sebagian besar obat bekerja dengan mengikat makromolekul khusus (reseptor) di sel tubuh. Obat dapat mengaktifkan, menghambat, meningkatkan, atau melemahkan respons tubuh. Interaksi ini menghasilkan perubahan fisiologis dan biokimiawi yang menjadi efek obat."
+            },
+            {
+              "heading": "Agonis dan Antagonis",
+              "teks": "Agonis adalah obat yang menduduki reseptor dan menimbulkan efek farmakologi. Antagonis adalah obat yang menduduki reseptor yang sama tetapi tidak menimbulkan efek — ia hanya menghalangi kerja agonis. Contoh: antihistamin menghalangi reseptor histamine saat reaksi alergi."
+            },
+            {
+              "heading": "Efek Obat",
+              "teks": "Efek obat dibagi menjadi: (1) Efek terapeutik — yang diinginkan untuk menyembuhkan atau mengurangi gejala; (2) Efek samping — efek sekunder yang tidak diinginkan; (3) Reaksi merugikan (ADR) — respon berbahaya yang tidak diharapkan pada dosis normal; (4) Reaksi idiosinkratik — respons yang tidak terduga pada individu tertentu."
+            },
+            {
+              "heading": "Variabilitas Respons",
+              "teks": "Setiap orang merespon obat berbeda-beda. Penyebabnya: faktor genetik, usia, jenis kelamin, penyakit penyerta, gaya hidup, makanan, obat lain yang dikonsumsi, dan tingkat kepatuhan pengobatan."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Reseptor",
+              "definisi": "Protein di sel tubuh yang menjadi tempat obat mengikat dan bekerja."
+            },
+            {
+              "istilah": "Agonis",
+              "definisi": "Obat yang mengaktifkan reseptor untuk menimbulkan efek."
+            },
+            {
+              "istilah": "Antagonis",
+              "definisi": "Obat yang menghalangi reseptor tanpa menimbulkan efek."
+            },
+            {
+              "istilah": "Efek Samping",
+              "definisi": "Efek sekunder yang tidak diinginkan selain efek terapeutik."
+            },
+            {
+              "istilah": "Reaksi Merugikan (ADR)",
+              "definisi": "Respon berbahaya dan tidak diharapkan pada dosis normal."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Buku Ajar Farmakologi 2022",
+              "penerbit": "Zahir Publishing",
+              "tahun": "2022",
+              "bab": "Bab 3"
+            },
+            {
+              "nama": "WHO - 5 Moments for Medication Safety",
+              "tahun": "2019",
+              "url": "https://www.who.int/publications/i/item/9789240000268"
+            }
+          ],
+          "disclaimer": "Informasi ini untuk edukasi umum. Konsultasikan penggunaan obat dengan dokter atau apoteker.",
+          "tanggal_peninjauan": "2026-10-24",
+          "kategori_id": "bentuk-penggunaan"
+        },
+        {
+          "id": "bentuk-sediaan",
+          "judul": "Bentuk Sediaan Obat yang Umum",
+          "ringkasan": "Tablet, kapsul, sirup, salep, dan bentuk sediaan lain yang sering ditemui beserta cara penggunaannya.",
+          "konten": [
+            {
+              "heading": "Sediaan Oral",
+              "teks": "Tablet adalah bentuk padat yang paling umum, mudah dibawa, dan stabil. Kapsul berisi bubuk atau cairan dalam selubung gelatin. Sirup adalah cairan rasa buah untuk anak-anak. Semua sediaan oral melewati saluran cerna dan mengalami first-pass metabolism di hati sebelum reaching sirkulasi sistemik."
+            },
+            {
+              "heading": "Sediaan Topikal",
+              "teks": "Salep, krim, gel, dan lotion digunakan pada kulit untuk efek lokal. Keunggulan: menghindari efek sistemik, memberikan konsentrasi tinggi di lokasi, dan mengurangi risiko keracunan sistemik."
+            },
+            {
+              "heading": "Sediaan Parenteral",
+              "teks": "Suntik intravena (IV), intramuskular (IM), dan subkutan (SC) untuk obat yang tidak dapat diberikan oral atau membutuhkan kerja cepat. Memerlukan sterilitas dan teknik aseptik untuk mencegah infeksi."
+            },
+            {
+              "heading": "Sediaan Inhalasi",
+              "teks": "Inhaler dan nebulizer untuk obat saluran pernapasan (asma, COPD). Keunggulan: langsung ke organ target, dosis lebih rendah, efek sistemik minimal."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Tablet",
+              "definisi": "Sediaan padat dengan satu atau lebih obat, dibuat dengan presses."
+            },
+            {
+              "istilah": "Kapsul",
+              "definisi": "Selubung gelatin yang berisi bubuk atau cairan obat."
+            },
+            {
+              "istilah": "Sirup",
+              "definisi": "Sediaan cair dengan rasa manis untuk obat oral, terutama pediatric."
+            },
+            {
+              "istilah": "Salep",
+              "definisi": "Sediaan semi-solid untuk aplikasi kulit dan membran mukosa."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Buku Ajar Farmakologi 2022",
+              "penerbit": "Zahir Publishing",
+              "tahun": "2022",
+              "bab": "Bab 4"
+            },
+            {
+              "nama": "Farmakope Indonesia Edisi V",
+              "penerbit": "Kemenkes RI",
+              "tahun": "2014"
+            }
+          ],
+          "disclaimer": "Informasi ini untuk edukasi umum. Konsultasikan penggunaan obat dengan dokter atau apoteker.",
+          "tanggal_peninjauan": "2026-10-25",
+          "kategori_id": "bentuk-penggunaan"
+        }
+      ]
+    },
+    {
+      "id": "bahan-herbal",
+      "nama": "Bahan Herbal & Suplemen",
+      "deskripsi": "Farmakognosi, simplisia, ekstrak, dan standar mutu bahan obat tradisional Indonesia.",
+      "icon": "herbal",
+      "warna": "#15803d",
+      "materi": [
+        {
+          "id": "pengantar-herbal",
+          "judul": "Obat dari Alam: Pengantar",
+          "ringkasan": "Indonesia memiliki kekayaan tumbuhan obat. Sejak berabad-abad, masyarakat menggunakan bahan alam untuk kesehatan, dan kini Standar Nasional mengaturnya.",
+          "konten": [
+            {
+              "heading": "Definisi",
+              "teks": "Obat bahan alam adalah produk mengandung bahan dari tumbuhan, hewan, atau mineral yang dapat digunakan sebagai obat. Obat tradisional adalah ramuan yang secara turun temurun digunakan untuk pengobatan. Obat herbal terstandar adalah sediaan yang telah dibuktikan keamanan dan khasiatnya secara ilmiah, dengan bahan baku yang distandardisasi."
+            },
+            {
+              "heading": "Farmakope Herbal Indonesia",
+              "teks": "Kementerian Kesehatan menerbitkan Farmakope Herbal Indonesia Edisi II (2022) sebagai standar mutu bahan baku obat tradisional. Buku ini berisi 110 monografi simplisia dan ekstrak dari 55 tumbuhan, dengan persyaratan mutu meliputi organoleptik, makroskopis, mikroskopis, dan kandungan kimia."
+            },
+            {
+              "heading": "Jenis-jenis Sediaan",
+              "teks": "Simplisia adalah bahan tumbuhan yang dipanen dan diolah menjadi bentuk kering (potongan, bubuk, serbuk). Ekstrak adalah sediaan yang dihasilkan dari ekstraksi simplisia menggunakan pelarut, menghasilkan produk dengan kandungan zat aktif yang lebih terstandarisasi."
+            },
+            {
+              "heading": "Keamanan dan Regulasi",
+              "teks": "Setiap bahan herbal yang beredar harus memenuhi standar mutu. BPOM RI mengawasi keamanan dan khasiat obat herbal terstandar. Pengguna disarankan membaca label, mengikuti dosis yang dianjurkan, dan berkonsultasi dengan tenaga kesehatan sebelum menggunakan suplemen secara rutin."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Simplisia",
+              "definisi": "Bahan tumbuhan yang diolah menjadi bentuk kering untuk keperluan obat."
+            },
+            {
+              "istilah": "Ekstrak",
+              "definisi": "Sediaan hasil ekstraksi simplisia dengan pelarut, mengandung zat aktif yang terstandarisasi."
+            },
+            {
+              "istilah": "Farmakope",
+              "definisi": "Buku standar resmi yang memuat persyaratan mutu obat dan bahan obat."
+            },
+            {
+              "istilah": "Fitofarmaka",
+              "definisi": "Obat herbal terstandar yang telah lolos uji praklinik dan klinik."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Farmakope Herbal Indonesia Edisi II",
+              "penerbit": "Kemenkes RI",
+              "tahun": "2022"
+            },
+            {
+              "nama": "Farmakognosi dan Fitokimia Komprehensif",
+              "penerbit": "Penerbit",
+              "tahun": "2016"
+            }
+          ],
+          "disclaimer": "Herbal bukan berarti bebas risiko. Konsultasikan dengan tenaga kesehatan sebelum rutin mengonsumsi suplemen.",
+          "tanggal_peninjauan": "2026-10-24",
+          "kategori_id": "bahan-herbal"
+        },
+        {
+          "id": "jamu-dan-suplemen",
+          "judul": "Jamu dan Suplemen: Apa yang Perlu Diketahui",
+          "ringkasan": "Perbedaan jamu, suplemen, dan obat herbal terstandar. Bagaimana memilih dan menggunakannya dengan aman.",
+          "konten": [
+            {
+              "heading": "Definisi dan Perbedaan",
+              "teks": "Jamu adalah ramuan tradisional Indonesia yang diwariskan turun-temurun. Suplemen adalah produk yang menambahkan nutrisi ke diet (vitamin, mineral). Obat herbal terstandar adalah sediaan yang telah lolos uji keamanan dan khasiat secara ilmiah. Perbedaan utama: regulasi, standar mutu, dan bukti klinis."
+            },
+            {
+              "heading": "Keamanan Penggunaan",
+              "teks": "Tidak semua herbal aman untuk semua orang. Beberapa dapat berinteraksi dengan obat kimia (misal: warfarin + ginkgo biloba meningkatkan risiko perdarahan). Selalu baca label, perhatikan dosis, dan konsultasikan dengan tenaga kesehatan sebelum menggunakan suplemen secara rutin."
+            },
+            {
+              "heading": "Regulasi di Indonesia",
+              "teks": "BPOM RI mengawasi obat herbal terstandar. Produk yang beredar harus memiliki nomor izin edar. Cek produk di bpom.go.id sebelum membeli. Hindari produk yang mengklaim 'sembuhkan kanker' atau 'tanpa efek samping' tanpa bukti ilmiah."
+            },
+            {
+              "heading": "Kepatuhan Penggunaan",
+              "teks": "Gunakan herbal sesuai dosis yang dianjurkan. Jangan mengganti obat yang diresepkan dokter dengan herbal tanpa konsultasi. Laporkan penggunaan herbal ke dokter saat kunjungan rutin untuk menghindari interaksi obat yang tidak diinginkan."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Jamu",
+              "definisi": "Ramuan tradisional Indonesia yang diwariskan turun-temurun untuk kesehatan."
+            },
+            {
+              "istilah": "Suplemen",
+              "definisi": "Produk yang menambahkan nutrisi (vitamin, mineral) ke diet sehari-hari."
+            },
+            {
+              "istilah": "Obat Herbal Terstandar",
+              "definisi": "Sediaan herbal yang telah lolos uji keamanan dan khasiat secara ilmiah."
+            },
+            {
+              "istilah": "Interaksi Obat",
+              "definisi": "Pengaruh satu obat terhadap kerja obat lain ketika dikonsumsi bersama."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Farmakope Herbal Indonesia Edisi II",
+              "penerbit": "Kemenkes RI",
+              "tahun": "2022"
+            },
+            {
+              "nama": "Farmakognosi dan Fitokimia Komprehensif",
+              "penerbit": "Penerbit",
+              "tahun": "2016"
+            }
+          ],
+          "disclaimer": "Herbal bukan berarti bebas risiko. Konsultasikan dengan tenaga kesehatan sebelum rutin mengonsumsi suplemen.",
+          "tanggal_peninjauan": "2026-10-25",
+          "kategori_id": "bahan-herbal"
+        }
+      ]
+    },
+    {
+      "id": "farmakope-standar",
+      "nama": "Farmakope & Standar Obat",
+      "deskripsi": "Standar mutu obat Indonesia: Farmakope Indonesia, Farmakope Herbal, dan regulasi BPOM.",
+      "icon": "book-medical",
+      "warna": "#0369a1",
+      "materi": [
+        {
+          "id": "sejarah-farmakope",
+          "judul": "Sejarah Farmakope Indonesia",
+          "ringkasan": "Dari Materia Medika Indonesia (1977) hingga Farmakope Indonesia Edisi V (2014) — standar mutu obat yang berkembang bersama industri.",
+          "konten": [
+            {
+              "heading": "Awalnya",
+              "teks": "Pada tahun 1977, Indonesia menerbitkan Materia Medika Indonesia jilid I berisi 20 monografi simplisia. Hingga 1995, MMI sudah sampai jilid VI dengan total ratusan monografi. Namun MMI belum menjadi standar wajib — hanya spesifikasi acuan."
+            },
+            {
+              "heading": "Farmakope Indonesia Era Modern",
+              "teks": "Farmakope Indonesia Edisi I diterbitkan 2009 (70 monografi). Edisi V kini menjadi standar resmi berdasarkan Keputusan Menteri Kesehatan No. 006/MENKES/SK/I/2014. Farmakope berisi ketentuan umum, sediaan umum, monografi, dan penjelasan untuk setiap bahan obat."
+            },
+            {
+              "heading": "Farmakope Herbal Indonesia",
+              "teks": "Kementerian Kesehatan menerbitkan Farmakope Herbal Indonesia sebagai standar mutu obat tradisional. Edisi II (2022) memuat 110 monografi simplisia dan ekstrak dari 55 tumbuhan, mencakup uji organoleptik, makroskopis, mikroskopis, dan kandungan kimia."
+            },
+            {
+              "heading": "Mengapa Standar Penting?",
+              "teks": "Standar memastikan setiap obat yang beredar memiliki kualitas, keamanan, dan khasiat yang teruji. Tanpa standar, konsumen tidak bisa memastikan apakah obat yang diminum benar-benar mengandung zat aktif yang diharapkan."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Farmakope",
+              "definisi": "Buku standar resmi pemerintah yang memuat persyaratan mutu obat, bahan obat, dan sediaan farmasi."
+            },
+            {
+              "istilah": "Monografi",
+              "definisi": "Bagian dalam farmakope yang memuat spesifikasi lengkap satu bahan obat atau sediaan."
+            },
+            {
+              "istilah": "Simplisia",
+              "definisi": "Bahan tumbuhan yang diolah menjadi bentuk kering (potongan, bubuk) untuk keperluan obat."
+            },
+            {
+              "istilah": "Standarisasi",
+              "definisi": "Proses menetapkan dan memastikan bahwa suatu bahan obat memenuhi spesifikasi mutu yang ditetapkan."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Farmakope Indonesia Edisi V",
+              "penerbit": "Kemenkes RI",
+              "tahun": "2014",
+              "sk": "006/MENKES/SK/I/2014"
+            },
+            {
+              "nama": "Farmakope Herbal Indonesia Edisi II",
+              "penerbit": "Kemenkes RI",
+              "tahun": "2022",
+              "isbn": "978-602-301-380-2"
+            }
+          ],
+          "disclaimer": "Farmakope adalah standar mutu, bukan rekomendasi pengobatan. Konsultasikan dengan tenaga kesehatan.",
+          "tanggal_peninjauan": "2026-10-24",
+          "kategori_id": "farmakope-standar"
+        },
+        {
+          "id": "perpustakaan-ruang-obat",
+          "judul": "Perpustakaan Ruang Obat",
+          "ringkasan": "Enam buku utama yang menjadi sumber konten edukasi website ini.",
+          "konten": [
+            {
+              "heading": "Buku Ajar Farmakologi 2022",
+              "teks": "Ditulis oleh tim dosen Poltekkes Kemenkes Surabaya dan Politeknik Kesehatan Kementerian Kesehatan. Mencakup 11 bab: konsep dasar, farmakokinetik, farmakodinamika, farmakoterapi, toksikologi, peran obat, penggolongan, prinsip pemberian, bentuk sediaan, peran perawat, dan cara pemberian obat. Penerbit: Zahir Publishing, Yogyakarta."
+            },
+            {
+              "heading": "Basic & Clinical Pharmacology 14th Ed",
+              "teks": "Buku farmakologi klinis terkemuka karya Bertram G. Katzung (UCSF). Edisi ke-14 (2018) mencakup prinsip dasar, obat otonom, kardiovaskular, sistem saraf, antimikroba, toksikologi, dan topik khusus. Diterjemahkan ke 12 bahasa. Berguna untuk mahasiswa dan praktisi kesehatan."
+            },
+            {
+              "heading": "Farmakope Herbal Indonesia Edisi II",
+              "teks": "Standar mutu bahan baku obat tradisional Indonesia. Diterbitkan Kemenkes RI (2022) dengan 110 monografi simplisia dan ekstrak dari 55 tumbuhan. Menjamin keamanan dan kualitas jamu serta suplemen yang beredar di masyarakat."
+            },
+            {
+              "heading": "Farmakope Indonesia Edisi V",
+              "teks": "Standar resmi sediaan farmasi Indonesia berdasarkan Keputusan Menteri Kesehatan No. 006/MENKES/SK/I/2014. Mengatur mutu obat, bahan obat, dan sediaan untuk menjamin keselamatan pengguna."
+            },
+            {
+              "heading": "Catatan Penting: Buku Dosis Obat IDAI 2016",
+              "teks": "Buku Saku Dosis Obat Pediatri IDAI (2016) adalah referensi dosis untuk dokter spesialis anak. Buku ini **tidak diperbarui secara berkala** dan dapat menjadi usang. Ruang Obat **tidak menggunakan buku ini sebagai acuan dosis** dan menyarankan konsultasi langsung dengan dokter atau apoteker untuk informasi dosis terkini."
+            },
+            {
+              "heading": "Farmakognosi dan Fitokimia Komprehensif",
+              "teks": "Buku introductory tentang farmakognosi: sejarah, karbohidrat, lipid, glikosida, minyak atsiri, alkaloid, dan senyawa alam lain sebagai sumber obat. Berguna untuk memahami asal-usul bahan obat dari tanaman."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Monografi",
+              "definisi": "Spesifikasi lengkap satu bahan obat atau sediaan dalam buku farmakope."
+            },
+            {
+              "istilah": "Simplisia",
+              "definisi": "Bahan tumbuhan yang diolah menjadi bentuk kering untuk keperluan obat."
+            },
+            {
+              "istilah": "Sediaan",
+              "definisi": "Bentuk siap pakai dari obat, seperti tablet, kapsul, sirup, atau salep."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Perpustakaan Ruang Obat",
+              "tahun": "2022-2026",
+              "catatan": "Koleksi 7 buku untuk referensi konten"
+            }
+          ],
+          "disclaimer": "Buku dosis IDAI 2016 tidak diperbarui secara berkala. Ruang Obat tidak menyajikan dosis dari buku ini.",
+          "tanggal_peninjauan": "2026-10-24",
+          "kategori_id": "sumber-dosis"
+        }
+      ]
+    },
+    {
+      "id": "farmakognosi",
+      "nama": "Farmakognosi & Fitokimia",
+      "deskripsi": "Ilmu tentang tumbuhan obat, simplisia, ekstrak, dan senyawa bioaktif alamiah.",
+      "icon": "leaf",
+      "warna": "#15803d",
+      "materi": [
+        {
+          "id": "pengantar-farmakognosi",
+          "judul": "Pengantar Farmakognosi",
+          "ringkasan": "Dari sejarah penggunaan tumbuhan obat hingga simplisia dan ekstrak modern.",
+          "konten": [
+            {
+              "heading": "Definisi",
+              "teks": "Farmakognosi berasal dari bahasa Yunani: 'farmakon' (obat) dan 'gnosis' (pengetahuan). Secara sederhana, farmakognosi adalah pengetahuan tentang obat, khususnya yang berasal dari tumbuhan, hewan, dan mineral. Cabang ini mempelajari identifikasi, keamanan, dan kualitas bahan alam yang digunakan sebagai obat."
+            },
+            {
+              "heading": "Sejarah Singkat",
+              "teks": "Penggunaan tumbuhan obat sudah ada sejak zaman prasejarah. Catatan tertua dari Dioscorides (abad 1) berisi ratusan tumbuhan obat. Di Indonesia, pengetahuan tentang jamu dan obat tradisional sudah ada sejak berabad-abad lalu. Kini farmakognosi berkembang dengan teknik skrining fitokimia, ekstraksi modern, dan standardisasi mutu."
+            },
+            {
+              "heading": "Simplisia dan Ekstrak",
+              "teks": "Simplisia adalah bahan tumbuhan yang diolah menjadi bentuk kering untuk keperluan obat. Ekstrak adalah hasil pengolahan simplisia dengan pelarut tertentu, menghasilkan produk dengan kandungan zat aktif yang lebih terstandarisasi dan terkontrol."
+            },
+            {
+              "heading": "Zat Aktif Alamiah",
+              "teks": "Tumbuhan mengandung berbagai senyawa bioaktif: alkaloida (morphine, quinine), glikosida (digoksin), minyak atsiri (kamfor, lavender), flavonoid, dan tanin. Senyawa-senyawa ini menjadi dasar pengembangan obat modern."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Farmakognosi",
+              "definisi": "Pengetahuan tentang obat, khususnya yang berasal dari tumbuhan, hewan, dan mineral."
+            },
+            {
+              "istilah": "Simplisia",
+              "definisi": "Bahan tumbuhan yang diolah menjadi bentuk kering untuk keperluan obat."
+            },
+            {
+              "istilah": "Ekstrak",
+              "definisi": "Hasil pengolahan simplisia dengan pelarut, mengandung zat aktif yang terstandarisasi."
+            },
+            {
+              "istilah": "Metabolit Sekunder",
+              "definisi": "Senyawa yang dihasilkan tumbuhan untuk pertahanan diri, sering memiliki aktivitas farmakologis."
+            },
+            {
+              "istilah": "Skrining Fitokimia",
+              "definisi": "Proses uji awal untuk mengetahui golongan senyawa kimia yang ada dalam tumbuhan obat."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Farmakognosi dan Fitokimia Komprehensif",
+              "penerbit": "Penerbit",
+              "tahun": "2016"
+            },
+            {
+              "nama": "Buku Ajar Farmakologi 2022",
+              "penerbit": "Zahir Publishing",
+              "tahun": "2022",
+              "bab": "Bab 1"
+            }
+          ],
+          "disclaimer": "Herbal bukan berarti bebas risiko. Konsultasikan dengan tenaga kesehatan sebelum rutin mengonsumsi suplemen.",
+          "tanggal_peninjauan": "2026-10-24",
+          "kategori_id": "farmakognosi"
+        },
+        {
+          "id": "alkaloida",
+          "judul": "Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+          "ringkasan": "Kelompok senyawa alam yang banyak menjadi obat: morphine, quinine, caffeine, dan banyak lagi.",
+          "konten": [
+            {
+              "heading": "Apa itu Alkaloida?",
+              "teks": "Alkaloida adalah senyawa nitrogen-containing yang dihasilkan tumbuhan untuk pertahanan diri. Banyak alkaloida memiliki aktivitas farmakologis yang kuat dan menjadi obat penting: morphine (nyeri), quinine (malaria), caffeine (stimulasi), nicotine (efek pada sistem saraf)."
+            },
+            {
+              "heading": "Sumber dan Contoh",
+              "teks": "Papaver somniferum (opium) → morphine, codeine. Cinchona tree → quinine, chloroquine. Coffea arabica → caffeine. Tabacum → nicotine. Setiap tumbuhan menghasilkan profil alkaloida yang khas."
+            },
+            {
+              "heading": "Konsekuensi Medis",
+              "teks": "Alkaloida sering memiliki efek sistemik yang kuat dan rentan overdosis. Karena itu, penggunaan alkaloida sebagai obat harus diawasi oleh tenaga kesehatan. Beberapa alkaloida juga memiliki potensi ketergantungan."
+            },
+            {
+              "heading": "Ekstraksi dan Standardisasi",
+              "teks": "Alkaloida diekstrak dengan asam atau pelarut organik. Standardisasi memastikan konsentrasi alkaloida yang konsisten dalam setiap produk. Tanpa standardisasi, dosis bisa bervariasi dan membahayakan."
+            }
+          ],
+          "istilah": [
+            {
+              "istilah": "Alkaloida",
+              "definisi": "Senyawa alam mengandung nitrogen dengan aktivitas farmakologis."
+            },
+            {
+              "istilah": "Morphine",
+              "definisi": "Alkaloida dari opium untuk nyeri hebat; potensi ketergantungan tinggi."
+            },
+            {
+              "istilah": "Quinine",
+              "definisi": "Alkaloida dari Cinchona untuk malaria; juga bahan dasar obat antimalaria."
+            },
+            {
+              "istilah": "Caffeine",
+              "definisi": "Alkaloida stimulasi dari kopi dan teh; mempengaruhi sistem saraf pusat."
+            }
+          ],
+          "sumber": [
+            {
+              "nama": "Farmakognosi dan Fitokimia Komprehensif",
+              "penerbit": "Penerbit",
+              "tahun": "2016"
+            },
+            {
+              "nama": "Buku Ajar Farmakologi 2022",
+              "penerbit": "Zahir Publishing",
+              "tahun": "2022",
+              "bab": "Bab 1"
+            }
+          ],
+          "disclaimer": "Herbal bukan berarti bebas risiko. Konsultasikan dengan tenaga kesehatan sebelum rutin mengonsumsi suplemen.",
+          "tanggal_peninjauan": "2026-10-25",
+          "kategori_id": "farmakognosi"
+        }
+      ]
+    }
+  ],
+  "sumber_terpercaya": [
+    {
+      "nama": "Kementerian Kesehatan RI",
+      "url": "https://www.kemkes.go.id",
+      "deskripsi": "Pedoman DAGUSIBU: Dapatkan, Gunakan, Simpan, Buang obat yang benar."
+    },
+    {
+      "nama": "BPOM RI",
+      "url": "https://www.pom.go.id",
+      "deskripsi": "Pengawasan obat dan makanan. Cek produk terdaftar di bpom.go.id."
+    },
+    {
+      "nama": "WHO",
+      "url": "https://www.who.int",
+      "deskripsi": "5 Moments for Medication Safety — pedoman global keselamatan penggunaan obat."
+    }
+  ],
+  "metadata": {
+    "nama": "Ruang Obat",
+    "versi": "0.2",
+    "dibuat": "2026-10-25",
+    "catatan": "Konten edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. 10 materi across 5 kategori."
+  }
+}

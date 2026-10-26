@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://keslan.kemkes.go.id/view_artikel/2303/apa-itu-dagusibu",
+      "title": "Apa itu Dagusibu? — Kementerian Kesehatan RI",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Dagusibu merupakan singkatan dari Dapatkan, Gunakan, Simpan dan Buang yang ditujukan agar masyarakat paham mengenai obat.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Aturan pakai obat pada etiket harus dipatuhi",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Hindari menggunakan obat orang lain meskipun merasakan gejala penyakit yang sama",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Simpan obat sesuai dengan kemasan aslinya dan memastikan obat tersebut tertutup rapat agar terhindar dari kontaminasi.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Perlu diperhatikan tempat penyimpanan jauh dari jangkauan anak-anak.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Obat yang telah kadaluwarsa tidak boleh dibuang sembarangan",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.pom.go.id/katabpom/cek-klik",
+      "title": "CEK KLIK — Badan Pengawas Obat dan Makanan",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Cek Kemasan Cek Label Cek Izin Edar Cek Kedaluwarsa",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.who.int/publications/i/item/WHO-HIS-SDS-2019.4",
+      "title": "5 moments for medication safety — WHO",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "The 5 Moments for Medication Safety is a patient engagement tool developed to support implementation of the third WHO Global Patient Safety Challenge: Medication Without Harm.",
+          "added": "2026-10-19"
+        }
+      ]
+    }
+  ],
+  "sumber": [
+    {
+      "id": "farmakokinetik-2022",
+      "nama": "Buku Ajar Farmakologi 2022 - Bab 2",
+      "penerbit": "Zahir Publishing",
+      "tahun": "2022",
+      "url": null,
+      "catatan": "Referensi farmakokinetik: absorpsi, distribusi, metabolisme, ekskresi"
+    },
+    {
+      "id": "bentuk-sediaan-2022",
+      "nama": "Buku Ajar Farmakologi 2022 - Bab 4",
+      "penerbit": "Zahir Publishing",
+      "tahun": "2022",
+      "url": null,
+      "catatan": "Referensi bentuk sediaan: tablet, kapsul, sirup, salep, suntik, inhalasi"
+    },
+    {
+      "id": "jamu-suplemen-2022",
+      "nama": "Farmakope Herbal Indonesia Edisi II",
+      "penerbit": "Kemenkes RI",
+      "tahun": "2022",
+      "url": null,
+      "catatan": "Referensi jamu, suplemen, dan obat herbal terstandar"
+    },
+    {
+      "id": "alkaloida-2016",
+      "nama": "Farmakognosi dan Fitokimia Komprehensif",
+      "penerbit": "Penerbit",
+      "tahun": "2016",
+      "url": null,
+      "catatan": "Referensi alkaloida: morphine, quinine, caffeine"
+    }
+  ]
+}

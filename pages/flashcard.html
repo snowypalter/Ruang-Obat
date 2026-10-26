@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcard Istilah — Ruang Obat</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="../assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="../index.html">Beranda</a>
+      <a href="farmakologi-dasar.html">Farmakologi</a>
+      <a href="bentuk-penggunaan.html">Penggunaan</a>
+      <a href="bahan-herbal.html">Herbal</a>
+      <a href="farmakope.html">Farmakope</a>
+      <a href="istilah.html">Istilah</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="aksesibilitas.html">Aksesibilitas</a>
+      <a href="privasi.html">Privasi</a>
+      <a href="studi-kasus.html">Studi Kasus</a>
+      <a href="flashcard.html" class="active">Flashcard</a>
+      <a href="pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="../index.html">Beranda</a>
+  <a href="farmakologi-dasar.html">Farmakologi</a>
+  <a href="bentuk-penggunaan.html">Penggunaan</a>
+  <a href="bahan-herbal.html">Herbal</a>
+  <a href="farmakope.html">Farmakope</a>
+  <a href="istilah.html">Istilah</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="aksesibilitas.html">Aksesibilitas</a>
+  <a href="privasi.html">Privasi</a>
+  <a href="studi-kasus.html">Studi Kasus</a>
+  <a href="flashcard.html">Flashcard</a>
+  <a href="pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section">
+    <div class="content-header">
+      <div class="eyebrow">BELAJAR</div>
+      <h1>Flashcard Istilah</h1>
+      <p>Klik kartu untuk membalik dan melihat definisi istilah farmasi.</p>
+    </div>
+    <img src="../assets/images/icons/kling0-book-open.png" alt="Flashcard Istilah" class="category-hero" loading="lazy">
+    <div class="disclaimer"><strong>Penting:</strong> Ini adalah materi edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.</div>
+    <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+    <article class="content-body">
+      <div id="flashcard-container">
+        <p>Memuat flashcard...</p>
+      </div>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+
+  // Load istilah.json as flashcards
+  fetch('../data/istilah.json')
+    .then(r => r.json())
+    .then(data => {
+      const container = document.getElementById('flashcard-container');
+      const istilahList = data.istilah || [];
+      
+      let html = '<h2>Flashcard Interaktif (' + istilahList.length + ' istilah)</h2>';
+      html += '<p style="margin-bottom: 24px;">Klik kartu untuk membalik dan melihat definisi.</p>';
+      html += '<div style="display: grid; gap: 20px; max-width: 700px; margin: 0 auto;">';
+      
+      istilahList.forEach((item, idx) => {
+        html += '<div onclick="this.classList.toggle(\'flipped\')" style="cursor: pointer; perspective: 1000px; height: 220px;">';
+        html += '<div id="flashcard-' + idx + '" style="position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">';
+        html += '<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); color: #fff;">';
+        html += '<div style="font-size: 3rem; margin-bottom: 16px;">📖</div>';
+        html += '<div style="font-family: Cormorant Garamond, serif; font-size: 1.8rem; font-weight: 700;">' + item.istilah + '</div>';
+        html += '<div style="font-size: 0.9rem; opacity: 0.8; margin-top: 12px;">Klik untuk melihat definisi</div>';
+        html += '</div>';
+        html += '<div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; transform: rotateY(180deg); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: #fff; border: 2px solid #0f766e; color: #1e293b;">';
+        html += '<div style="font-size: 1.1rem; line-height: 1.6;">' + item.definisi + '</div>';
+        if (item.contoh) {
+          html += '<div style="margin-top: 16px; padding: 12px 20px; background: #f0fdfa; border-radius: 12px; font-size: 0.95rem; color: #0f766e; font-style: italic;">Contoh: ' + item.contoh + '</div>';
+        }
+        html += '</div></div></div>';
+      });
+      
+      html += '</div>';
+      container.innerHTML = html;
+      
+      // Add flip functionality
+      istilahList.forEach((item, idx) => {
+        const card = document.getElementById('flashcard-' + idx);
+        if (card) {
+          card.addEventListener('click', function() {
+            this.style.transform = this.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+          });
+        }
+      });
+    })
+    .catch(err => {
+      document.getElementById('flashcard-container').innerHTML = '<p style="color: #dc2626;">Gagal memuat flashcard. Silakan refresh halaman.</p>';
+    });
+</script>
+</body>
+</html>

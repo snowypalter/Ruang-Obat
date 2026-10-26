@@ -1,0 +1,244 @@
+{
+  "quiz": [
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Apa Itu Farmakologi?",
+      "pertanyaan": "Apa yang membahas Apa Itu Farmakologi??",
+      "opsi": [
+        "Farmakologi adalah ilmu tentang obat — dari sejarah, sumber, cara kerja, sampai penggunaan yang aman.",
+        "Apa Itu Farmakologi? adalah bagian dari Farmakologi Dasar",
+        "Materi tentang Apa Itu Farmakologi? dalam konteks farmasi",
+        "Topik penting dalam Farmakologi Dasar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Apa Itu Farmakologi?",
+      "pertanyaan": "Apa definisi dari Definisi?",
+      "opsi": [
+        "Kata 'farmakologi' berasal dari bahasa Yunani: 'pharmakon' berarti obat, dan 'logos' berarti ilmu. S...",
+        "Definisi tentang Definisi dalam farmasi",
+        "Konsep dasar dalam Apa Itu Farmakologi?",
+        "Bagian dari materi Apa Itu Farmakologi?"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+      "pertanyaan": "Apa yang membahas Farmakokinetik: Bagaimana Tubuh Memproses Obat?",
+      "opsi": [
+        "Proses absorpsi, distribusi, metabolisme, dan ekskresi obat yang menentukan konsentrasi obat di tubuh.",
+        "Farmakokinetik: Bagaimana Tubuh Memproses Obat adalah bagian dari Farmakologi Dasar",
+        "Materi tentang Farmakokinetik: Bagaimana Tubuh Memproses Obat dalam konteks farmasi",
+        "Topik penting dalam Farmakologi Dasar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+      "pertanyaan": "Apa definisi dari Absorpsi?",
+      "opsi": [
+        "Absorpsi adalah masuknya obat ke dalam sirkulasi sistemik. Lokasi absorpsi tergantung pada cara pemb...",
+        "Definisi tentang Absorpsi dalam farmasi",
+        "Konsep dasar dalam Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+        "Bagian dari materi Farmakokinetik: Bagaimana Tubuh Memproses Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Cara Obat Bekerja di Tubuh",
+      "pertanyaan": "Apa yang membahas Cara Obat Bekerja di Tubuh?",
+      "opsi": [
+        "Obat bekerja dengan mengikat reseptor di sel tubuh, mengubah aktivitas biologis untuk menghasilkan efek terapeutik.",
+        "Cara Obat Bekerja di Tubuh adalah bagian dari Bentuk & Penggunaan Obat",
+        "Materi tentang Cara Obat Bekerja di Tubuh dalam konteks farmasi",
+        "Topik penting dalam Bentuk & Penggunaan Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Cara Obat Bekerja di Tubuh",
+      "pertanyaan": "Apa definisi dari Mekanisme Dasar?",
+      "opsi": [
+        "Sebagian besar obat bekerja dengan mengikat makromolekul khusus (reseptor) di sel tubuh. Obat dapat ...",
+        "Definisi tentang Mekanisme Dasar dalam farmasi",
+        "Konsep dasar dalam Cara Obat Bekerja di Tubuh",
+        "Bagian dari materi Cara Obat Bekerja di Tubuh"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Bentuk Sediaan Obat yang Umum",
+      "pertanyaan": "Apa yang membahas Bentuk Sediaan Obat yang Umum?",
+      "opsi": [
+        "Tablet, kapsul, sirup, salep, dan bentuk sediaan lain yang sering ditemui beserta cara penggunaannya.",
+        "Bentuk Sediaan Obat yang Umum adalah bagian dari Bentuk & Penggunaan Obat",
+        "Materi tentang Bentuk Sediaan Obat yang Umum dalam konteks farmasi",
+        "Topik penting dalam Bentuk & Penggunaan Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Bentuk Sediaan Obat yang Umum",
+      "pertanyaan": "Apa definisi dari Sediaan Oral?",
+      "opsi": [
+        "Tablet adalah bentuk padat yang paling umum, mudah dibawa, dan stabil. Kapsul berisi bubuk atau cair...",
+        "Definisi tentang Sediaan Oral dalam farmasi",
+        "Konsep dasar dalam Bentuk Sediaan Obat yang Umum",
+        "Bagian dari materi Bentuk Sediaan Obat yang Umum"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Obat dari Alam: Pengantar",
+      "pertanyaan": "Apa yang membahas Obat dari Alam: Pengantar?",
+      "opsi": [
+        "Indonesia memiliki kekayaan tumbuhan obat. Sejak berabad-abad, masyarakat menggunakan bahan alam untuk kesehatan, dan kini Standar Nasional mengaturnya.",
+        "Obat dari Alam: Pengantar adalah bagian dari Bahan Herbal & Suplemen",
+        "Materi tentang Obat dari Alam: Pengantar dalam konteks farmasi",
+        "Topik penting dalam Bahan Herbal & Suplemen"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Obat dari Alam: Pengantar",
+      "pertanyaan": "Apa definisi dari Definisi?",
+      "opsi": [
+        "Obat bahan alam adalah produk mengandung bahan dari tumbuhan, hewan, atau mineral yang dapat digunak...",
+        "Definisi tentang Definisi dalam farmasi",
+        "Konsep dasar dalam Obat dari Alam: Pengantar",
+        "Bagian dari materi Obat dari Alam: Pengantar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Jamu dan Suplemen: Apa yang Perlu Diketahui",
+      "pertanyaan": "Apa yang membahas Jamu dan Suplemen: Apa yang Perlu Diketahui?",
+      "opsi": [
+        "Perbedaan jamu, suplemen, dan obat herbal terstandar. Bagaimana memilih dan menggunakannya dengan aman.",
+        "Jamu dan Suplemen: Apa yang Perlu Diketahui adalah bagian dari Bahan Herbal & Suplemen",
+        "Materi tentang Jamu dan Suplemen: Apa yang Perlu Diketahui dalam konteks farmasi",
+        "Topik penting dalam Bahan Herbal & Suplemen"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Jamu dan Suplemen: Apa yang Perlu Diketahui",
+      "pertanyaan": "Apa definisi dari Definisi dan Perbedaan?",
+      "opsi": [
+        "Jamu adalah ramuan tradisional Indonesia yang diwariskan turun-temurun. Suplemen adalah produk yang ...",
+        "Definisi tentang Definisi dan Perbedaan dalam farmasi",
+        "Konsep dasar dalam Jamu dan Suplemen: Apa yang Perlu Diketahui",
+        "Bagian dari materi Jamu dan Suplemen: Apa yang Perlu Diketahui"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Sejarah Farmakope Indonesia",
+      "pertanyaan": "Apa yang membahas Sejarah Farmakope Indonesia?",
+      "opsi": [
+        "Dari Materia Medika Indonesia (1977) hingga Farmakope Indonesia Edisi V (2014) — standar mutu obat yang berkembang bersama industri.",
+        "Sejarah Farmakope Indonesia adalah bagian dari Farmakope & Standar Obat",
+        "Materi tentang Sejarah Farmakope Indonesia dalam konteks farmasi",
+        "Topik penting dalam Farmakope & Standar Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Sejarah Farmakope Indonesia",
+      "pertanyaan": "Apa definisi dari Awalnya?",
+      "opsi": [
+        "Pada tahun 1977, Indonesia menerbitkan Materia Medika Indonesia jilid I berisi 20 monografi simplisi...",
+        "Definisi tentang Awalnya dalam farmasi",
+        "Konsep dasar dalam Sejarah Farmakope Indonesia",
+        "Bagian dari materi Sejarah Farmakope Indonesia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Perpustakaan Ruang Obat",
+      "pertanyaan": "Apa yang membahas Perpustakaan Ruang Obat?",
+      "opsi": [
+        "Enam buku utama yang menjadi sumber konten edukasi website ini.",
+        "Perpustakaan Ruang Obat adalah bagian dari Farmakope & Standar Obat",
+        "Materi tentang Perpustakaan Ruang Obat dalam konteks farmasi",
+        "Topik penting dalam Farmakope & Standar Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Perpustakaan Ruang Obat",
+      "pertanyaan": "Apa definisi dari Buku Ajar Farmakologi 2022?",
+      "opsi": [
+        "Ditulis oleh tim dosen Poltekkes Kemenkes Surabaya dan Politeknik Kesehatan Kementerian Kesehatan. M...",
+        "Definisi tentang Buku Ajar Farmakologi 2022 dalam farmasi",
+        "Konsep dasar dalam Perpustakaan Ruang Obat",
+        "Bagian dari materi Perpustakaan Ruang Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Pengantar Farmakognosi",
+      "pertanyaan": "Apa yang membahas Pengantar Farmakognosi?",
+      "opsi": [
+        "Dari sejarah penggunaan tumbuhan obat hingga simplisia dan ekstrak modern.",
+        "Pengantar Farmakognosi adalah bagian dari Farmakognosi & Fitokimia",
+        "Materi tentang Pengantar Farmakognosi dalam konteks farmasi",
+        "Topik penting dalam Farmakognosi & Fitokimia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Pengantar Farmakognosi",
+      "pertanyaan": "Apa definisi dari Definisi?",
+      "opsi": [
+        "Farmakognosi berasal dari bahasa Yunani: 'farmakon' (obat) dan 'gnosis' (pengetahuan). Secara sederh...",
+        "Definisi tentang Definisi dalam farmasi",
+        "Konsep dasar dalam Pengantar Farmakognosi",
+        "Bagian dari materi Pengantar Farmakognosi"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+      "pertanyaan": "Apa yang membahas Alkaloida: Senyawa Bioaktif dari Tumbuhan?",
+      "opsi": [
+        "Kelompok senyawa alam yang banyak menjadi obat: morphine, quinine, caffeine, dan banyak lagi.",
+        "Alkaloida: Senyawa Bioaktif dari Tumbuhan adalah bagian dari Farmakognosi & Fitokimia",
+        "Materi tentang Alkaloida: Senyawa Bioaktif dari Tumbuhan dalam konteks farmasi",
+        "Topik penting dalam Farmakognosi & Fitokimia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+      "pertanyaan": "Apa definisi dari Apa itu Alkaloida??",
+      "opsi": [
+        "Alkaloida adalah senyawa nitrogen-containing yang dihasilkan tumbuhan untuk pertahanan diri. Banyak ...",
+        "Definisi tentang Apa itu Alkaloida? dalam farmasi",
+        "Konsep dasar dalam Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+        "Bagian dari materi Alkaloida: Senyawa Bioaktif dari Tumbuhan"
+      ],
+      "jawaban": 0
+    }
+  ]
+}

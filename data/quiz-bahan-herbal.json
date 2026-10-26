@@ -1,0 +1,76 @@
+{
+  "quiz": [
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Obat dari Alam: Pengantar",
+      "pertanyaan": "Apa yang dibahas dalam Obat dari Alam: Pengantar?",
+      "opsi": [
+        "Indonesia memiliki kekayaan tumbuhan obat. Sejak berabad-abad, masyarakat menggunakan bahan alam untuk kesehatan, dan kini Standar Nasional mengaturnya.",
+        "Obat dari Alam: Pengantar adalah bagian dari Bahan Herbal & Suplemen",
+        "Materi tentang Obat dari Alam: Pengantar dalam konteks farmasi",
+        "Topik penting dalam Bahan Herbal & Suplemen"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Obat dari Alam: Pengantar",
+      "pertanyaan": "Apa definisi dari Definisi?",
+      "opsi": [
+        "Obat bahan alam adalah produk mengandung bahan dari tumbuhan, hewan, atau mineral yang dapat digunakan sebagai obat. Obat tradisional adalah ramuan ya...",
+        "Definisi tentang Definisi dalam Bahan Herbal & Suplemen",
+        "Konsep dasar dalam Obat dari Alam: Pengantar",
+        "Bagian dari materi Obat dari Alam: Pengantar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Obat dari Alam: Pengantar",
+      "pertanyaan": "Apa definisi dari Farmakope Herbal Indonesia?",
+      "opsi": [
+        "Kementerian Kesehatan menerbitkan Farmakope Herbal Indonesia Edisi II (2022) sebagai standar mutu bahan baku obat tradisional. Buku ini berisi 110 mon...",
+        "Definisi tentang Farmakope Herbal Indonesia dalam Bahan Herbal & Suplemen",
+        "Konsep dasar dalam Obat dari Alam: Pengantar",
+        "Bagian dari materi Obat dari Alam: Pengantar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Jamu dan Suplemen: Apa yang Perlu Diketahui",
+      "pertanyaan": "Apa yang dibahas dalam Jamu dan Suplemen: Apa yang Perlu Diketahui?",
+      "opsi": [
+        "Perbedaan jamu, suplemen, dan obat herbal terstandar. Bagaimana memilih dan menggunakannya dengan aman.",
+        "Jamu dan Suplemen: Apa yang Perlu Diketahui adalah bagian dari Bahan Herbal & Suplemen",
+        "Materi tentang Jamu dan Suplemen: Apa yang Perlu Diketahui dalam konteks farmasi",
+        "Topik penting dalam Bahan Herbal & Suplemen"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Jamu dan Suplemen: Apa yang Perlu Diketahui",
+      "pertanyaan": "Apa definisi dari Definisi dan Perbedaan?",
+      "opsi": [
+        "Jamu adalah ramuan tradisional Indonesia yang diwariskan turun-temurun. Suplemen adalah produk yang menambahkan nutrisi ke diet (vitamin, mineral). Ob...",
+        "Definisi tentang Definisi dan Perbedaan dalam Bahan Herbal & Suplemen",
+        "Konsep dasar dalam Jamu dan Suplemen: Apa yang Perlu Diketahui",
+        "Bagian dari materi Jamu dan Suplemen: Apa yang Perlu Diketahui"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bahan Herbal & Suplemen",
+      "materi": "Jamu dan Suplemen: Apa yang Perlu Diketahui",
+      "pertanyaan": "Apa definisi dari Keamanan Penggunaan?",
+      "opsi": [
+        "Tidak semua herbal aman untuk semua orang. Beberapa dapat berinteraksi dengan obat kimia (misal: warfarin + ginkgo biloba meningkatkan risiko perdarah...",
+        "Definisi tentang Keamanan Penggunaan dalam Bahan Herbal & Suplemen",
+        "Konsep dasar dalam Jamu dan Suplemen: Apa yang Perlu Diketahui",
+        "Bagian dari materi Jamu dan Suplemen: Apa yang Perlu Diketahui"
+      ],
+      "jawaban": 0
+    }
+  ]
+}

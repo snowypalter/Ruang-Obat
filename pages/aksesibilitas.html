@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aksesibilitas — Ruang Obat</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="../assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="../index.html">Beranda</a>
+      <a href="farmakologi-dasar.html">Farmakologi</a>
+      <a href="bentuk-penggunaan.html">Penggunaan</a>
+      <a href="bahan-herbal.html">Herbal</a>
+      <a href="farmakope.html">Farmakope</a>
+      <a href="istilah.html">Istilah</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="aksesibilitas.html" class="active">Aksesibilitas</a>
+      <a href="privasi.html">Privasi</a>
+      <a href="studi-kasus.html">Studi Kasus</a>
+      <a href="flashcard.html">Flashcard</a>
+      <a href="pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="../index.html">Beranda</a>
+  <a href="farmakologi-dasar.html">Farmakologi</a>
+  <a href="bentuk-penggunaan.html">Penggunaan</a>
+  <a href="bahan-herbal.html">Herbal</a>
+  <a href="farmakope.html">Farmakope</a>
+  <a href="istilah.html">Istilah</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="aksesibilitas.html">Aksesibilitas</a>
+  <a href="privasi.html">Privasi</a>
+  <a href="studi-kasus.html">Studi Kasus</a>
+  <a href="flashcard.html">Flashcard</a>
+  <a href="pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section">
+    <div class="content-header">
+      <div class="eyebrow">Aksesibilitas</div>
+      <h1>Pernyataan Aksesibilitas</h1>
+      <p>Komitmen kami untuk membuat website ini dapat diakses oleh semua orang.</p>
+    </div>
+    <img src="../assets/images/icons/kling0-molecule.png" alt="Aksesibilitas" class="category-hero" loading="lazy">
+    <div class="disclaimer"><strong>Penting:</strong> Ini adalah materi edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.</div>
+    <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+    <article class="content-body">
+      <h2>Kepatuhan WCAG</h2>
+      <p>Kami berusaha memenuhi standar WCAG 2.1 AA untuk memastikan konten dapat diakses oleh penyandang disabilitas.</p>
+      <h2>Fitur Aksesibilitas</h2>
+      <p>Skip link, navigasi keyboard, alt text pada gambar, kontras warna yang memadai, dan dukungan screen reader.</p>
+      <h2>Batasan</h2>
+      <p>Beberapa konten interaktif seperti flashcard dan studi kasus mungkin memerlukan penyesuaian lebih lanjut untuk aksesibilitas penuh.</p>
+      <h2>Umpan Balik</h2>
+      <p>Jika Anda menemukan hambatan aksesibilitas, silakan laporkan kepada kami untuk perbaikan selanjutnya.</p>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+</script>
+</body>
+</html>

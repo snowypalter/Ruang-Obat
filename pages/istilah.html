@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Istilah Farmasi — Ruang Obat</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="../assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="../index.html">Beranda</a>
+      <a href="farmakologi-dasar.html">Farmakologi</a>
+      <a href="bentuk-penggunaan.html">Penggunaan</a>
+      <a href="bahan-herbal.html">Herbal</a>
+      <a href="farmakope.html">Farmakope</a>
+      <a href="istilah.html" class="active">Istilah</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="aksesibilitas.html">Aksesibilitas</a>
+      <a href="privasi.html">Privasi</a>
+      <a href="studi-kasus.html">Studi Kasus</a>
+      <a href="flashcard.html">Flashcard</a>
+      <a href="pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="../index.html">Beranda</a>
+  <a href="farmakologi-dasar.html">Farmakologi</a>
+  <a href="bentuk-penggunaan.html">Penggunaan</a>
+  <a href="bahan-herbal.html">Herbal</a>
+  <a href="farmakope.html">Farmakope</a>
+  <a href="istilah.html">Istilah</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="aksesibilitas.html">Aksesibilitas</a>
+  <a href="privasi.html">Privasi</a>
+  <a href="studi-kasus.html">Studi Kasus</a>
+  <a href="flashcard.html">Flashcard</a>
+  <a href="pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section">
+    <div class="content-header">
+      <div class="eyebrow">GLOSARIUM</div>
+      <h1>Istilah Farmasi</h1>
+      <p>Glosarium istilah penting dalam dunia farmasi untuk memudahkan pemahaman.</p>
+    </div>
+    <img src="../assets/images/icons/kling0-molecule.png" alt="Istilah Farmasi" class="category-hero" loading="lazy">
+    <div class="disclaimer"><strong>Penting:</strong> Ini adalah materi edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.</div>
+    <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+    <article class="content-body">
+      <div id="istilah-container">
+        <p>Memuat istilah farmasi...</p>
+      </div>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+
+  // Load istilah.json dynamically
+  fetch('../data/istilah.json')
+    .then(r => r.json())
+    .then(data => {
+      const container = document.getElementById('istilah-container');
+      const istilahList = data.istilah || [];
+      
+      let html = '<h2>Daftar Istilah (' + istilahList.length + ')</h2>';
+      html += '<div style="display: grid; gap: 16px; margin-top: 24px;">';
+      
+      istilahList.forEach(item => {
+        html += '<div style="padding: 20px; background: #fff; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">';
+        html += '<h3 style="font-family: Cormorant Garamond, serif; font-size: 1.3rem; color: #0f766e; margin-bottom: 8px;">' + item.istilah + '</h3>';
+        html += '<p style="color: #475569; line-height: 1.7; margin: 0;">' + item.definisi + '</p>';
+        if (item.contoh) {
+          html += '<p style="color: #0f766e; font-size: 0.9rem; margin-top: 8px; font-style: italic;">Contoh: ' + item.contoh + '</p>';
+        }
+        html += '</div>';
+      });
+      
+      html += '</div>';
+      container.innerHTML = html;
+    })
+    .catch(err => {
+      document.getElementById('istilah-container').innerHTML = '<p style="color: #dc2626;">Gagal memuat istilah. Silakan refresh halaman.</p>';
+    });
+</script>
+</body>
+</html>

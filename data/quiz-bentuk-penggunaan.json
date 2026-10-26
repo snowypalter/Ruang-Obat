@@ -1,0 +1,76 @@
+{
+  "quiz": [
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Cara Obat Bekerja di Tubuh",
+      "pertanyaan": "Apa yang dibahas dalam Cara Obat Bekerja di Tubuh?",
+      "opsi": [
+        "Obat bekerja dengan mengikat reseptor di sel tubuh, mengubah aktivitas biologis untuk menghasilkan efek terapeutik.",
+        "Cara Obat Bekerja di Tubuh adalah bagian dari Bentuk & Penggunaan Obat",
+        "Materi tentang Cara Obat Bekerja di Tubuh dalam konteks farmasi",
+        "Topik penting dalam Bentuk & Penggunaan Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Cara Obat Bekerja di Tubuh",
+      "pertanyaan": "Apa definisi dari Mekanisme Dasar?",
+      "opsi": [
+        "Sebagian besar obat bekerja dengan mengikat makromolekul khusus (reseptor) di sel tubuh. Obat dapat mengaktifkan, menghambat, meningkatkan, atau melem...",
+        "Definisi tentang Mekanisme Dasar dalam Bentuk & Penggunaan Obat",
+        "Konsep dasar dalam Cara Obat Bekerja di Tubuh",
+        "Bagian dari materi Cara Obat Bekerja di Tubuh"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Cara Obat Bekerja di Tubuh",
+      "pertanyaan": "Apa definisi dari Agonis dan Antagonis?",
+      "opsi": [
+        "Agonis adalah obat yang menduduki reseptor dan menimbulkan efek farmakologi. Antagonis adalah obat yang menduduki reseptor yang sama tetapi tidak meni...",
+        "Definisi tentang Agonis dan Antagonis dalam Bentuk & Penggunaan Obat",
+        "Konsep dasar dalam Cara Obat Bekerja di Tubuh",
+        "Bagian dari materi Cara Obat Bekerja di Tubuh"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Bentuk Sediaan Obat yang Umum",
+      "pertanyaan": "Apa yang dibahas dalam Bentuk Sediaan Obat yang Umum?",
+      "opsi": [
+        "Tablet, kapsul, sirup, salep, dan bentuk sediaan lain yang sering ditemui beserta cara penggunaannya.",
+        "Bentuk Sediaan Obat yang Umum adalah bagian dari Bentuk & Penggunaan Obat",
+        "Materi tentang Bentuk Sediaan Obat yang Umum dalam konteks farmasi",
+        "Topik penting dalam Bentuk & Penggunaan Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Bentuk Sediaan Obat yang Umum",
+      "pertanyaan": "Apa definisi dari Sediaan Oral?",
+      "opsi": [
+        "Tablet adalah bentuk padat yang paling umum, mudah dibawa, dan stabil. Kapsul berisi bubuk atau cairan dalam selubung gelatin. Sirup adalah cairan ras...",
+        "Definisi tentang Sediaan Oral dalam Bentuk & Penggunaan Obat",
+        "Konsep dasar dalam Bentuk Sediaan Obat yang Umum",
+        "Bagian dari materi Bentuk Sediaan Obat yang Umum"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Bentuk & Penggunaan Obat",
+      "materi": "Bentuk Sediaan Obat yang Umum",
+      "pertanyaan": "Apa definisi dari Sediaan Topikal?",
+      "opsi": [
+        "Salep, krim, gel, dan lotion digunakan pada kulit untuk efek lokal. Keunggulan: menghindari efek sistemik, memberikan konsentrasi tinggi di lokasi, da...",
+        "Definisi tentang Sediaan Topikal dalam Bentuk & Penggunaan Obat",
+        "Konsep dasar dalam Bentuk Sediaan Obat yang Umum",
+        "Bagian dari materi Bentuk Sediaan Obat yang Umum"
+      ],
+      "jawaban": 0
+    }
+  ]
+}

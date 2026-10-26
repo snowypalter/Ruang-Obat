@@ -1,0 +1,21 @@
+{
+  "name": "Ruang Obat",
+  "short_name": "Ruang Obat",
+  "description": "Website edukasi farmasi berbasis pustaka",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "assets/images/logo-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

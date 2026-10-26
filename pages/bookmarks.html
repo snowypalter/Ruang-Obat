@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Materi Tersimpan — Ruang Obat</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="../assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="../index.html">Beranda</a>
+      <a href="farmakologi-dasar.html">Farmakologi</a>
+      <a href="bentuk-penggunaan.html">Penggunaan</a>
+      <a href="bahan-herbal.html">Herbal</a>
+      <a href="farmakope.html">Farmakope</a>
+      <a href="istilah.html">Istilah</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="aksesibilitas.html">Aksesibilitas</a>
+      <a href="privasi.html">Privasi</a>
+      <a href="studi-kasus.html">Studi Kasus</a>
+      <a href="flashcard.html">Flashcard</a>
+      <a href="pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="../index.html">Beranda</a>
+  <a href="farmakologi-dasar.html">Farmakologi</a>
+  <a href="bentuk-penggunaan.html">Penggunaan</a>
+  <a href="bahan-herbal.html">Herbal</a>
+  <a href="farmakope.html">Farmakope</a>
+  <a href="istilah.html">Istilah</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="aksesibilitas.html">Aksesibilitas</a>
+  <a href="privasi.html">Privasi</a>
+  <a href="studi-kasus.html">Studi Kasus</a>
+  <a href="flashcard.html">Flashcard</a>
+  <a href="pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section">
+    <div class="content-header">
+      <div class="eyebrow">PRIBADI</div>
+      <h1>Materi Tersimpan</h1>
+      <p>Kumpulan materi yang Anda simpan untuk dibaca kembali.</p>
+    </div>
+    <img src="../assets/images/icons/icon-books-stack.png" alt="Materi Tersimpan" class="category-hero" loading="lazy">
+    <div class="disclaimer"><strong>Penting:</strong> Ini adalah materi edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.</div>
+    <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+    <article class="content-body">
+      <div id="bookmarks-container">
+        <p>Memuat materi tersimpan...</p>
+      </div>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+
+  // Load bookmarks from localStorage
+  const savedBookmarks = JSON.parse(localStorage.getItem('ruangobat_bookmarks') || '[]');
+  const container = document.getElementById('bookmarks-container');
+  
+  if (savedBookmarks.length === 0) {
+    container.innerHTML = '<h2>Daftar Materi Tersimpan</h2><p style="color: #64748b; font-style: italic;">Belum ada materi yang disimpan. Klik tombol "Simpan Materi" di halaman konten untuk menyimpan.</p>';
+  } else {
+    let html = '<h2>Daftar Materi Tersimpan (' + savedBookmarks.length + ')</h2>';
+    html += '<div style="display: grid; gap: 16px; margin-top: 24px;">';
+    
+    savedBookmarks.forEach((bm, idx) => {
+      const date = new Date(bm.savedAt).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+      html += '<div style="padding: 20px; background: #fff; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.04); display: flex; justify-content: space-between; align-items: center; gap: 16px;">';
+      html += '<div style="flex: 1;">';
+      html += '<h3 style="font-family: Cormorant Garamond, serif; font-size: 1.2rem; color: #0f766e; margin-bottom: 6px;">' + bm.title + '</h3>';
+      html += '<p style="color: #64748b; font-size: 0.9rem; margin: 0;">Disimpan pada ' + date + '</p>';
+      html += '</div>';
+      html += '<a href="' + bm.url + '" style="padding: 10px 20px; background: #0f766e; color: #fff; border-radius: 10px; text-decoration: none; font-size: 0.9rem; white-space: nowrap;">Buka</a>';
+      html += '</div>';
+    });
+    
+    html += '</div>';
+    container.innerHTML = html;
+  }
+</script>
+</body>
+</html>

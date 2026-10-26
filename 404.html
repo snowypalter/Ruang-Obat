@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Halaman Tidak Ditemukan | Ruang Obat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a>
+      <a href="pages/farmakologi-dasar.html">Farmakologi</a>
+      <a href="pages/bentuk-penggunaan.html">Penggunaan</a>
+      <a href="pages/bahan-herbal.html">Herbal</a>
+      <a href="pages/farmakope.html">Farmakope</a>
+      <a href="pages/istilah.html">Istilah</a>
+      <a href="pages/tentang.html">Tentang</a>
+      <a href="pages/aksesibilitas.html">Aksesibilitas</a>
+      <a href="pages/privasi.html">Privasi</a>
+      <a href="pages/studi-kasus.html">Studi Kasus</a>
+      <a href="pages/flashcard.html">Flashcard</a>
+      <a href="pages/pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="index.html">Beranda</a>
+  <a href="pages/farmakologi-dasar.html">Farmakologi</a>
+  <a href="pages/bentuk-penggunaan.html">Penggunaan</a>
+  <a href="pages/bahan-herbal.html">Herbal</a>
+  <a href="pages/farmakope.html">Farmakope</a>
+  <a href="pages/istilah.html">Istilah</a>
+  <a href="pages/tentang.html">Tentang</a>
+  <a href="pages/aksesibilitas.html">Aksesibilitas</a>
+  <a href="pages/privasi.html">Privasi</a>
+  <a href="pages/studi-kasus.html">Studi Kasus</a>
+  <a href="pages/flashcard.html">Flashcard</a>
+  <a href="pages/pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section" style="text-align: center; padding: 80px 24px;">
+    <div class="content-header">
+      <div class="eyebrow">KESALAHAN</div>
+      <h1 style="font-size: 6rem; color: #0f766e; margin-bottom: 8px;">404</h1>
+      <h2 style="font-size: 2rem; color: #1e293b; margin-bottom: 16px;">Halaman Tidak Ditemukan</h2>
+      <p style="font-size: 1.1rem; color: #64748b; max-width: 600px; margin: 0 auto 32px;">
+        Halaman yang kamu cari tidak ditemukan. Mungkin halaman telah dipindah, diubah, atau tidak pernah ada.
+      </p>
+      <a href="index.html" class="btn btn-primary" style="display: inline-block; padding: 14px 32px; background: #0f766e; color: #fff; border-radius: 12px; text-decoration: none; font-weight: 600;">
+        ← Kembali ke Beranda
+      </a>
+    </div>
+    <img src="assets/images/character-concept.webp" alt="Asclepios" class="category-hero" style="max-width: 300px; margin: 48px auto 0; opacity: 0.9;" loading="lazy">
+    <div class="trust-indicator" style="margin-top: 24px;">✓ Ditinjau oleh Apoteker</div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+</script>
+</body>
+</html>

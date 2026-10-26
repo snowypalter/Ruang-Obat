@@ -1,0 +1,170 @@
+{
+  "istilah": [
+    {
+      "istilah": "Farmakologi",
+      "definisi": "Ilmu pengetahuan tentang obat, meliputi sejarah, sumber, sifat, cara kerja, absorpsi, distribusi, metabolisme, ekskresi, dan penggunaan untuk terapi.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Farmakokinetik",
+      "definisi": "Ilmu yang mempelajari reaksi tubuh dalam menerima obat: absorpsi (penyerapan), distribusi (peredaran), metabolisme (pengolahan oleh hati), dan ekskresi (pembuangan).",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Farmakodinamik",
+      "definisi": "Studi tentang tempat dan mekanisme kerja serta efek fisiologis dan biokimiawi obat pada organisme hidup.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Farmakoterapi",
+      "definisi": "Cabang ilmu farmakologi yang mempelajari penggunaan obat untuk pencegahan dan penyembuhan penyakit.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Farmakognosi",
+      "definisi": "Cabang ilmu farmakologi yang mempelajari sifat-sifat tumbuhan dan bahan lain yang merupakan sumber obat.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Absorpsi",
+      "definisi": "Proses senyawa obat dipindahkan dari tempat pemberian ke dalam sirkulasi sistemik (aliran darah).",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Distribusi",
+      "definisi": "Peredaran obat melalui aliran darah ke seluruh jaringan dan organ tubuh.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Metabolisme",
+      "definisi": "Perubahan struktur kimia obat di dalam tubuh, terutama di hati, agar lebih mudah dikeluarkan.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Ekskresi",
+      "definisi": "Pembuangan sisa obat dan metabolutnya dari tubuh, terutama melalui ginjal (urin) dan empedu (feses).",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Reseptor",
+      "definisi": "Protein makromolekuler di sel tubuh yang menjadi tempat obat mengikat untuk menghasilkan efek.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Agonis",
+      "definisi": "Obat yang menduduki reseptor dan menimbulkan efek farmakologi secara intrinsik.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Antagonis",
+      "definisi": "Obat yang menduduki reseptor yang sama dengan agonis tetapi tidak menimbulkan efek — hanya menghalangi kerja agonis.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Efek Samping",
+      "definisi": "Efek sekunder yang tidak diinginkan yang terjadi di samping efek terapeutik. Dapat diprediksi dan tidak selalu dapat dihindari.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Reaksi Merugikan (ADR)",
+      "definisi": "Respon terhadap obat yang berbahaya dan tidak diharapkan, terjadi pada dosis yang biasanya digunakan untuk terapi. Lebih parah dari efek samping.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Toleransi",
+      "definisi": "Penurunan respon terhadap obat setelah paparan berkelanjutan, sehingga dosis perlu ditingkatkan untuk mencapai efek yang sama.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Ketergantungan",
+      "definisi": "Kebutuhan akan obat untuk berfungsi normal. Bisa fisik (perkembangan dengan paparan berkelanjutan) atau psikologis.",
+      "kategori": "bentuk-penggunaan",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Indeks Terapi",
+      "definisi": "Perkiraan margin keamanan obat. Sempit = batas keamanan sempit (gentamisin, digoksin). Luas = margin keamanan lebar (aspirin).",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "First-Pass Metabolism",
+      "definisi": "Metabolisme hati yang menyebabkan sebagian obat menjadi tidak aktif sebelum masuk sirkulasi sistemik, sehingga mengurangi jumlah obat yang sampai ke target.",
+      "kategori": "farmakologi-dasar",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Simplisia",
+      "definisi": "Bahan tumbuhan yang diolah menjadi bentuk kering (potongan, bubuk) untuk keperluan obat.",
+      "kategori": "bahan-herbal",
+      "sumber": "Farmakope Herbal Indonesia Edisi II"
+    },
+    {
+      "istilah": "Ekstrak",
+      "definisi": "Sediaan hasil ekstraksi simplisia menggunakan pelarut, dengan kandungan zat aktif yang terstandarisasi.",
+      "kategori": "bahan-herbal",
+      "sumber": "Farmakope Herbal Indonesia Edisi II"
+    },
+    {
+      "istilah": "Farmakope",
+      "definisi": "Buku standar resmi yang memuat persyaratan mutu obat, bahan obat, dan sediaan farmasi.",
+      "kategori": "bahan-herbal",
+      "sumber": "Farmakope Indonesia Edisi V"
+    },
+    {
+      "istilah": "Fitofarmaka",
+      "definisi": "Obat herbal terstandar yang telah dibuktikan keamanan dan khasiatnya secara ilmiah melalui uji praklinik dan klinik.",
+      "kategori": "bahan-herbal",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    {
+      "istilah": "Obat Tradisional",
+      "definisi": "Ramuan bahan tumbuhan, hewan, atau mineral yang secara turun temurun digunakan untuk pengobatan sesuai norma masyarakat.",
+      "kategori": "bahan-herbal",
+      "sumber": "Buku Ajar Farmakologi 2022"
+    },
+    { "istilah": "Farmakope", "definisi": "Buku standar resmi pemerintah yang memuat persyaratan mutu obat, bahan obat, dan sediaan farmasi.", "kategori": "farmakope-standar", "sumber": "Farmakope Indonesia Edisi V" },
+    { "istilah": "Monografi", "definisi": "Spesifikasi lengkap satu bahan obat atau sediaan dalam buku farmakope.", "kategori": "farmakope-standar", "sumber": "Farmakope Indonesia Edisi V" },
+    { "istilah": "Standarisasi", "definisi": "Proses menetapkan dan memastikan bahwa suatu bahan obat memenuhi spesifikasi mutu yang ditetapkan.", "kategori": "farmakope-standar", "sumber": "Farmakope Herbal Indonesia Edisi II" },
+    { "istilah": "Sediaan", "definisi": "Bentuk siap pakai dari obat, seperti tablet, kapsul, sirup, atau salep.", "kategori": "farmakope-standar", "sumber": "Farmakope Indonesia Edisi V" },
+    { "istilah": "Efektivitas", "definisi": "Kemampuan obat untuk menghasilkan efek terapi yang diharapkan pada penggunaan yang tepat.", "kategori": "bentuk-penggunaan", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Interaksi Obat", "definisi": "Perubahan efek obat ketika dikombinasikan dengan obat lain, makanan, atau kondisi penyakit.", "kategori": "bentuk-penggunaan", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Kepatuhan", "definisi": "Tingkat kejujuran pasien dalam mengikuti regimen obat yang diresepkan.", "kategori": "farmakologi-dasar", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Guide to Good Prescribing (GGP)", "definisi": "Panduan WHO untuk pemilihan dan penggunaan obat yang rasional: masalah pasien, tujuan terapi, verifikasi, pengobatan, informasi, dan monitoring.", "kategori": "farmakope-standar", "sumber": "WHO" },
+    { "istilah": "Bioavailabilitas", "definisi": "Persentase dosis obat yang mencapai sirkulasi sistemik tanpa diubah.", "kategori": "farmakologi-dasar", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Volume Distribusi", "definisi": "Hubungan antara jumlah obat di tubuh dengan konsentrasi plasma.", "kategori": "farmakologi-dasar", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Clearance", "definisi": "Volume plasma yang dibersihkan dari obat per satuan waktu.", "kategori": "farmakologi-dasar", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "T½ (Waktu Paruh)", "definisi": "Waktu yang dibutuhkan untuk menurunkan konsentrasi plasma obat setengahnya.", "kategori": "farmakologi-dasar", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Tablet", "definisi": "Sediaan padat dengan satu atau lebih obat, dibuat dengan tekanan.", "kategori": "bentuk-penggunaan", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Kapsul", "definisi": "Selubung gelatin yang berisi bubuk atau cairan obat.", "kategori": "bentuk-penggunaan", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Sirup", "definisi": "Sediaan cair dengan rasa manis untuk obat oral, terutama pediatric.", "kategori": "bentuk-penggunaan", "sumber": "Buku Ajar Farmakologi 2022" },
+    { "istilah": "Salep", "definisi": "Sediaan semi-solid untuk aplikasi kulit dan membran mukosa.", "kategori": "bentuk-penggunaan", "sumber": "Farmakope Indonesia Edisi V" },
+    { "istilah": "Jamu", "definisi": "Ramuan tradisional Indonesia yang diwariskan turun-temurun untuk kesehatan.", "kategori": "bahan-herbal", "sumber": "Farmakope Herbal Indonesia Edisi II" },
+    { "istilah": "Suplemen", "definisi": "Produk yang menambahkan nutrisi (vitamin, mineral) ke diet sehari-hari.", "kategori": "bahan-herbal", "sumber": "Farmakope Herbal Indonesia Edisi II" },
+    { "istilah": "Obat Herbal Terstandar", "definisi": "Sediaan herbal yang telah lolos uji keamanan dan khasiat secara ilmiah.", "kategori": "bahan-herbal", "sumber": "Farmakope Herbal Indonesia Edisi II" },
+    { "istilah": "Alkaloida", "definisi": "Senyawa alam mengandung nitrogen dengan aktivitas farmakologis.", "kategori": "farmakognosi", "sumber": "Farmakognosi dan Fitokimia Komprehensif" },
+    { "istilah": "Morphine", "definisi": "Alkaloida dari opium untuk nyeri hebat; potensi ketergantungan tinggi.", "kategori": "farmakognosi", "sumber": "Farmakognosi dan Fitokimia Komprehensif" },
+    { "istilah": "Quinine", "definisi": "Alkaloida dari Cinchona untuk malaria; juga bahan dasar obat antimalaria.", "kategori": "farmakognosi", "sumber": "Farmakognosi dan Fitokimia Komprehensif" },
+    { "istilah": "Caffeine", "definisi": "Alkaloida stimulasi dari kopi dan teh; mempengaruhi sistem saraf pusat.", "kategori": "farmakognosi", "sumber": "Farmakognosi dan Fitokimia Komprehensif" }
+  ],
+  "metadata": {
+    "total_istilah": 46,
+    "dibuat": "2026-10-25",
+    "catatan": "Glossary farmasi dalam bahasa awam untuk edukasi umum."
+  }
+}

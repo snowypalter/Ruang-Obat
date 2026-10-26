@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studi Kasus — Ruang Obat</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="../assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="../index.html">Beranda</a>
+      <a href="farmakologi-dasar.html">Farmakologi</a>
+      <a href="bentuk-penggunaan.html">Penggunaan</a>
+      <a href="bahan-herbal.html">Herbal</a>
+      <a href="farmakope.html">Farmakope</a>
+      <a href="istilah.html">Istilah</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="aksesibilitas.html">Aksesibilitas</a>
+      <a href="privasi.html">Privasi</a>
+      <a href="studi-kasus.html" class="active">Studi Kasus</a>
+      <a href="flashcard.html">Flashcard</a>
+      <a href="pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="../index.html">Beranda</a>
+  <a href="farmakologi-dasar.html">Farmakologi</a>
+  <a href="bentuk-penggunaan.html">Penggunaan</a>
+  <a href="bahan-herbal.html">Herbal</a>
+  <a href="farmakope.html">Farmakope</a>
+  <a href="istilah.html">Istilah</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="aksesibilitas.html">Aksesibilitas</a>
+  <a href="privasi.html">Privasi</a>
+  <a href="studi-kasus.html">Studi Kasus</a>
+  <a href="flashcard.html">Flashcard</a>
+  <a href="pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section">
+    <div class="content-header">
+      <div class="eyebrow">INTERAKTIF</div>
+      <h1>Studi Kasus</h1>
+      <p>Pelajari skenario nyata interaksi obat dan literasi obat.</p>
+    </div>
+    <img src="../assets/images/icons/kling0-herb.png" alt="Studi Kasus" class="category-hero" loading="lazy">
+    <div class="disclaimer"><strong>Penting:</strong> Ini adalah materi edukasi umum, bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.</div>
+    <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+    <article class="content-body">
+      <div id="studi-kasus-container">
+        <p>Memuat studi kasus...</p>
+      </div>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan tenaga kesehatan.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+
+  // Load studi kasus from materi.json
+  fetch('../data/materi.json')
+    .then(r => r.json())
+    .then(data => {
+      const container = document.getElementById('studi-kasus-container');
+      const kategoriList = data.kategori || [];
+      
+      let html = '<h2>Studi Kasus Interaktif</h2>';
+      html += '<p style="margin-bottom: 24px;">Pilih kategori untuk melihat studi kasus dan skenario pembelajaran.</p>';
+      
+      kategoriList.forEach((kat, idx) => {
+        html += '<div style="padding: 24px; background: #fff; border-radius: 16px; border: 1px solid #e2e8f0; box-shadow: 0 4px 12px rgba(0,0,0,0.04); margin-bottom: 20px;">';
+        html += '<div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">';
+        html += '<div style="width: 48px; height: 48px; background: #0f766e; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.5rem;">📚</div>';
+        html += '<div>';
+        html += '<h3 style="font-family: Cormorant Garamond, serif; font-size: 1.3rem; color: #0f766e; margin: 0;">' + kat.nama + '</h3>';
+        html += '<p style="color: #64748b; font-size: 0.9rem; margin: 4px 0 0 0;">' + (kat.deskripsi || 'Kategori edukasi farmasi') + '</p>';
+        html += '</div></div>';
+        
+        if (kat.materi && kat.materi.length > 0) {
+          html += '<div style="display: grid; gap: 12px; margin-top: 16px;">';
+          kat.materi.forEach(m => {
+            html += '<div style="padding: 16px; background: #f8fafc; border-radius: 12px; border-left: 4px solid #0f766e;">';
+            html += '<div style="font-weight: 600; color: #1e293b; margin-bottom: 6px;">' + m.judul + '</div>';
+            html += '<div style="color: #475569; font-size: 0.95rem; line-height: 1.6;">' + (m.deskripsi || 'Materi edukasi farmasi yang dapat dijelajahi.') + '</div>';
+            html += '</div>';
+          });
+          html += '</div>';
+        }
+        
+        html += '</div>';
+      });
+      
+      container.innerHTML = html;
+    })
+    .catch(err => {
+      document.getElementById('studi-kasus-container').innerHTML = '<p style="color: #dc2626;">Gagal memuat studi kasus. Silakan refresh halaman.</p>';
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "quiz": [
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Sejarah Farmakope Indonesia",
+      "pertanyaan": "Apa yang dibahas dalam Sejarah Farmakope Indonesia?",
+      "opsi": [
+        "Dari Materia Medika Indonesia (1977) hingga Farmakope Indonesia Edisi V (2014) — standar mutu obat yang berkembang bersama industri.",
+        "Sejarah Farmakope Indonesia adalah bagian dari Farmakope & Standar Obat",
+        "Materi tentang Sejarah Farmakope Indonesia dalam konteks farmasi",
+        "Topik penting dalam Farmakope & Standar Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Sejarah Farmakope Indonesia",
+      "pertanyaan": "Apa definisi dari Awalnya?",
+      "opsi": [
+        "Pada tahun 1977, Indonesia menerbitkan Materia Medika Indonesia jilid I berisi 20 monografi simplisia. Hingga 1995, MMI sudah sampai jilid VI dengan t...",
+        "Definisi tentang Awalnya dalam Farmakope & Standar Obat",
+        "Konsep dasar dalam Sejarah Farmakope Indonesia",
+        "Bagian dari materi Sejarah Farmakope Indonesia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Sejarah Farmakope Indonesia",
+      "pertanyaan": "Apa definisi dari Farmakope Indonesia Era Modern?",
+      "opsi": [
+        "Farmakope Indonesia Edisi I diterbitkan 2009 (70 monografi). Edisi V kini menjadi standar resmi berdasarkan Keputusan Menteri Kesehatan No. 006/MENKES...",
+        "Definisi tentang Farmakope Indonesia Era Modern dalam Farmakope & Standar Obat",
+        "Konsep dasar dalam Sejarah Farmakope Indonesia",
+        "Bagian dari materi Sejarah Farmakope Indonesia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Perpustakaan Ruang Obat",
+      "pertanyaan": "Apa yang dibahas dalam Perpustakaan Ruang Obat?",
+      "opsi": [
+        "Enam buku utama yang menjadi sumber konten edukasi website ini.",
+        "Perpustakaan Ruang Obat adalah bagian dari Farmakope & Standar Obat",
+        "Materi tentang Perpustakaan Ruang Obat dalam konteks farmasi",
+        "Topik penting dalam Farmakope & Standar Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Perpustakaan Ruang Obat",
+      "pertanyaan": "Apa definisi dari Buku Ajar Farmakologi 2022?",
+      "opsi": [
+        "Ditulis oleh tim dosen Poltekkes Kemenkes Surabaya dan Politeknik Kesehatan Kementerian Kesehatan. Mencakup 11 bab: konsep dasar, farmakokinetik, farm...",
+        "Definisi tentang Buku Ajar Farmakologi 2022 dalam Farmakope & Standar Obat",
+        "Konsep dasar dalam Perpustakaan Ruang Obat",
+        "Bagian dari materi Perpustakaan Ruang Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakope & Standar Obat",
+      "materi": "Perpustakaan Ruang Obat",
+      "pertanyaan": "Apa definisi dari Basic & Clinical Pharmacology 14th Ed?",
+      "opsi": [
+        "Buku farmakologi klinis terkemuka karya Bertram G. Katzung (UCSF). Edisi ke-14 (2018) mencakup prinsip dasar, obat otonom, kardiovaskular, sistem sara...",
+        "Definisi tentang Basic & Clinical Pharmacology 14th Ed dalam Farmakope & Standar Obat",
+        "Konsep dasar dalam Perpustakaan Ruang Obat",
+        "Bagian dari materi Perpustakaan Ruang Obat"
+      ],
+      "jawaban": 0
+    }
+  ]
+}

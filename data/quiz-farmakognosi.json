@@ -1,0 +1,76 @@
+{
+  "quiz": [
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Pengantar Farmakognosi",
+      "pertanyaan": "Apa yang dibahas dalam Pengantar Farmakognosi?",
+      "opsi": [
+        "Dari sejarah penggunaan tumbuhan obat hingga simplisia dan ekstrak modern.",
+        "Pengantar Farmakognosi adalah bagian dari Farmakognosi & Fitokimia",
+        "Materi tentang Pengantar Farmakognosi dalam konteks farmasi",
+        "Topik penting dalam Farmakognosi & Fitokimia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Pengantar Farmakognosi",
+      "pertanyaan": "Apa definisi dari Definisi?",
+      "opsi": [
+        "Farmakognosi berasal dari bahasa Yunani: 'farmakon' (obat) dan 'gnosis' (pengetahuan). Secara sederhana, farmakognosi adalah pengetahuan tentang obat,...",
+        "Definisi tentang Definisi dalam Farmakognosi & Fitokimia",
+        "Konsep dasar dalam Pengantar Farmakognosi",
+        "Bagian dari materi Pengantar Farmakognosi"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Pengantar Farmakognosi",
+      "pertanyaan": "Apa definisi dari Sejarah Singkat?",
+      "opsi": [
+        "Penggunaan tumbuhan obat sudah ada sejak zaman prasejarah. Catatan tertua dari Dioscorides (abad 1) berisi ratusan tumbuhan obat. Di Indonesia, penget...",
+        "Definisi tentang Sejarah Singkat dalam Farmakognosi & Fitokimia",
+        "Konsep dasar dalam Pengantar Farmakognosi",
+        "Bagian dari materi Pengantar Farmakognosi"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+      "pertanyaan": "Apa yang dibahas dalam Alkaloida: Senyawa Bioaktif dari Tumbuhan?",
+      "opsi": [
+        "Kelompok senyawa alam yang banyak menjadi obat: morphine, quinine, caffeine, dan banyak lagi.",
+        "Alkaloida: Senyawa Bioaktif dari Tumbuhan adalah bagian dari Farmakognosi & Fitokimia",
+        "Materi tentang Alkaloida: Senyawa Bioaktif dari Tumbuhan dalam konteks farmasi",
+        "Topik penting dalam Farmakognosi & Fitokimia"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+      "pertanyaan": "Apa definisi dari Apa itu Alkaloida??",
+      "opsi": [
+        "Alkaloida adalah senyawa nitrogen-containing yang dihasilkan tumbuhan untuk pertahanan diri. Banyak alkaloida memiliki aktivitas farmakologis yang kua...",
+        "Definisi tentang Apa itu Alkaloida? dalam Farmakognosi & Fitokimia",
+        "Konsep dasar dalam Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+        "Bagian dari materi Alkaloida: Senyawa Bioaktif dari Tumbuhan"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakognosi & Fitokimia",
+      "materi": "Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+      "pertanyaan": "Apa definisi dari Sumber dan Contoh?",
+      "opsi": [
+        "Papaver somniferum (opium) → morphine, codeine. Cinchona tree → quinine, chloroquine. Coffea arabica → caffeine. Tabacum → nicotine. Setiap tumbuhan m...",
+        "Definisi tentang Sumber dan Contoh dalam Farmakognosi & Fitokimia",
+        "Konsep dasar dalam Alkaloida: Senyawa Bioaktif dari Tumbuhan",
+        "Bagian dari materi Alkaloida: Senyawa Bioaktif dari Tumbuhan"
+      ],
+      "jawaban": 0
+    }
+  ]
+}

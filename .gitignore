@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+deploy.zip
+deploy-production.zip
+deploy-clean.zip
+
+# Backup folders
+_backup/
+_backup_redesign/
+
+# Temporary files
+*.tmp
+*.log
+.hermes-tmp*
+
+# Netlify state
+.netlify/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.git-backup
+assets/docs/hermes-putia.txt
+assets/docs/

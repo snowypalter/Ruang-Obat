@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Bahan Herbal & Suplemen — Ruang Obat</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.quiz-container { max-width: 800px; margin: 0 auto; }
+.quiz-header { text-align: center; margin-bottom: 32px; }
+.quiz-stats { display: flex; justify-content: center; gap: 24px; margin-bottom: 24px; flex-wrap: wrap; }
+.quiz-stat { padding: 12px 24px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-align: center; min-width: 100px; }
+.quiz-stat-value { font-size: 1.8rem; font-weight: 700; color: #0f766e; }
+.quiz-stat-label { font-size: 0.85rem; color: #64748b; }
+.quiz-question { background: #fff; border-radius: 16px; padding: 32px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+.quiz-question-text { font-size: 1.15rem; font-weight: 600; color: #1e293b; margin-bottom: 24px; line-height: 1.6; }
+.quiz-options { display: flex; flex-direction: column; gap: 12px; }
+.quiz-option { padding: 16px 20px; border: 2px solid #e2e8f0; border-radius: 12px; background: #fff; cursor: pointer; transition: all 0.2s; text-align: left; font-size: 1rem; color: #1e293b; font-family: inherit; }
+.quiz-option:hover { border-color: #0f766e; background: #f0fdfa; }
+.quiz-option.correct { border-color: #15803d; background: #f0fdf4; color: #166534; }
+.quiz-option.wrong { border-color: #dc2626; background: #fef2f2; color: #991b1b; }
+.quiz-option:disabled { cursor: not-allowed; opacity: 0.7; }
+.quiz-feedback { margin-top: 16px; padding: 16px; border-radius: 12px; font-size: 0.95rem; display: none; }
+.quiz-feedback.correct { background: #f0fdf4; color: #166534; border-left: 4px solid #15803d; }
+.quiz-feedback.wrong { background: #fef2f2; color: #991b1b; border-left: 4px solid #dc2626; }
+.quiz-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; }
+.quiz-btn { padding: 12px 24px; border-radius: 12px; border: none; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+.quiz-btn-primary { background: #0f766e; color: #fff; }
+.quiz-btn-primary:hover { background: #0d9488; }
+.quiz-btn-primary:disabled { background: #94a3b8; cursor: not-allowed; }
+.quiz-btn-secondary { background: #fff; color: #0f766e; border: 2px solid #0f766e; }
+.quiz-btn-secondary:hover { background: #f0fdfa; }
+.quiz-btn-secondary:disabled { border-color: #94a3b8; color: #94a3b8; cursor: not-allowed; }
+.quiz-progress { width: 100%; height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; margin-bottom: 24px; }
+.quiz-progress-bar { height: 100%; background: #0f766e; transition: width 0.3s ease; }
+.quiz-complete { text-align: center; padding: 48px 24px; background: #fff; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+.quiz-score { font-size: 4rem; font-weight: 700; color: #0f766e; margin-bottom: 16px; }
+.quiz-message { font-size: 1.2rem; color: #1e293b; margin-bottom: 24px; }
+.quiz-restart { padding: 14px 32px; background: #0f766e; color: #fff; border: none; border-radius: 12px; font-size: 1rem; font-weight: 600; cursor: pointer; font-family: inherit; }
+.quiz-restart:hover { background: #0d9488; }
+@media (max-width: 768px) {
+  .quiz-question { padding: 24px; }
+  .quiz-option { padding: 14px 16px; font-size: 0.95rem; }
+  .quiz-nav { flex-direction: column; gap: 12px; }
+  .quiz-btn { width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<a class="skip-link" href="#main">Lewati ke isi</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon"><img loading="lazy" src="../assets/images/logo-icon.png" alt="Ruang Obat"></div>
+      <span>Ruang Obat</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="../index.html">Beranda</a>
+      <a href="farmakologi-dasar.html">Farmakologi</a>
+      <a href="bentuk-penggunaan.html">Penggunaan</a>
+      <a href="bahan-herbal.html">Herbal</a>
+      <a href="farmakope.html">Farmakope</a>
+      <a href="istilah.html">Istilah</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="aksesibilitas.html">Aksesibilitas</a>
+      <a href="privasi.html">Privasi</a>
+      <a href="studi-kasus.html">Studi Kasus</a>
+      <a href="flashcard.html">Flashcard</a>
+      <a href="pustaka.html">Pustaka</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="../index.html">Beranda</a>
+  <a href="farmakologi-dasar.html">Farmakologi</a>
+  <a href="bentuk-penggunaan.html">Penggunaan</a>
+  <a href="bahan-herbal.html">Herbal</a>
+  <a href="farmakope.html">Farmakope</a>
+  <a href="istilah.html">Istilah</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="aksesibilitas.html">Aksesibilitas</a>
+  <a href="privasi.html">Privasi</a>
+  <a href="studi-kasus.html">Studi Kasus</a>
+  <a href="flashcard.html">Flashcard</a>
+  <a href="pustaka.html">Pustaka</a>
+</nav>
+<main id="main" class="content-page">
+  <div class="content-section">
+    <div class="content-header">
+      <div class="eyebrow">BAHAN HERBAL</div>
+      <h1>Quiz Bahan Herbal & Suplemen</h1>
+      <p>Test your knowledge about herbal medicine, supplements, and natural products.</p>
+    </div>
+    <img src="../assets/images/category-herbal.webp" alt="Quiz Bahan Herbal & Suplemen" class="category-hero" loading="lazy">
+    <div class="disclaimer"><strong>Penting:</strong> Ini adalah materi edukasi umum. Quiz ini hanya untuk menilai pemahaman, bukan diagnosis atau saran medis.</div>
+    <div class="trust-indicator">✓ Ditinjau oleh Apoteker</div>
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <div class="quiz-stats">
+          <div class="quiz-stat">
+            <div class="quiz-stat-value" id="quiz-score">0</div>
+            <div class="quiz-stat-label">Skor</div>
+          </div>
+          <div class="quiz-stat">
+            <div class="quiz-stat-value" id="quiz-question">1/10</div>
+            <div class="quiz-stat-label">Pertanyaan</div>
+          </div>
+          <div class="quiz-stat">
+            <div class="quiz-stat-value" id="quiz-percent">0%</div>
+            <div class="quiz-stat-label">Akurasi</div>
+          </div>
+        </div>
+        <div class="quiz-progress">
+          <div class="quiz-progress-bar" id="quiz-progress" style="width: 0%"></div>
+        </div>
+      </div>
+      <div id="quiz-content">
+        <div class="quiz-question">
+          <div class="quiz-question-text" id="question-text">Memuat pertanyaan...</div>
+          <div class="quiz-options" id="quiz-options"></div>
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+        </div>
+        <div class="quiz-nav">
+          <button class="quiz-btn quiz-btn-secondary" id="prev-btn" disabled>← Sebelumnya</button>
+          <button class="quiz-btn quiz-btn-primary" id="next-btn" disabled>Selanjutnya →</button>
+        </div>
+      </div>
+      <div class="quiz-complete" id="quiz-complete" style="display: none;">
+        <div class="quiz-score" id="final-score">0/10</div>
+        <div class="quiz-message" id="quiz-message">Quiz selesai!</div>
+        <button class="quiz-restart" onclick="location.reload()">Ulangi Quiz</button>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>Ruang Obat · Edukasi obat berbasis sumber · Konten untuk masyarakat umum, mahasiswa farmasi, dan tenaga kefarmasian</p>
+    <p style="margin-top: 8px;">Disclaimer: Ini bukan diagnosis, resep, atau saran dosis pribadi. Selalu konsultasikan dengan dokter atau apoteker sebelum menggunakan obat.</p>
+  </div>
+</footer>
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNav = document.querySelector('.mobile-nav');
+  menuBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    menuBtn.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progressBar');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+
+  let currentQuestion = 0;
+  let score = 0;
+  let questions = [];
+  let answered = false;
+
+  fetch('../data/quiz-bahan-herbal.json')
+    .then(r => r.json())
+    .then(data => {
+      questions = data.quiz || [];
+      if (questions.length === 0) {
+        document.getElementById('quiz-content').innerHTML = '<p style="text-align: center; padding: 48px;">Belum ada soal quiz.</p>';
+        return;
+      }
+      showQuestion();
+    })
+    .catch(err => {
+      document.getElementById('quiz-content').innerHTML = '<p style="color: #dc2626; text-align: center; padding: 48px;">Gagal memuat quiz.</p>';
+    });
+
+  function showQuestion() {
+    if (currentQuestion >= questions.length) { showResults(); return; }
+    const q = questions[currentQuestion];
+    document.getElementById('question-text').textContent = (currentQuestion + 1) + '. ' + q.pertanyaan;
+    document.getElementById('quiz-question').textContent = (currentQuestion + 1) + '/' + questions.length;
+    document.getElementById('quiz-progress').style.width = ((currentQuestion + 1) / questions.length * 100) + '%';
+    document.getElementById('quiz-percent').textContent = Math.round((score / questions.length) * 100) + '%';
+    const optionsDiv = document.getElementById('quiz-options');
+    optionsDiv.innerHTML = '';
+    q.opsi.forEach((opt, idx) => {
+      const btn = document.createElement('button');
+      btn.className = 'quiz-option';
+      btn.textContent = opt;
+      btn.onclick = () => selectAnswer(idx);
+      optionsDiv.appendChild(btn);
+    });
+    document.getElementById('quiz-feedback').style.display = 'none';
+    document.getElementById('prev-btn').disabled = currentQuestion === 0;
+    document.getElementById('next-btn').disabled = true;
+    answered = false;
+  }
+
+  function selectAnswer(idx) {
+    if (answered) return;
+    answered = true;
+    const q = questions[currentQuestion];
+    const options = document.querySelectorAll('.quiz-option');
+    const feedback = document.getElementById('quiz-feedback');
+    options.forEach((opt, i) => {
+      opt.disabled = true;
+      if (i === q.jawaban) opt.classList.add('correct');
+      else if (i === idx && idx !== q.jawaban) opt.classList.add('wrong');
+    });
+    if (idx === q.jawaban) {
+      score++;
+      feedback.className = 'quiz-feedback correct';
+      feedback.innerHTML = '<strong>Benar!</strong>';
+    } else {
+      feedback.className = 'quiz-feedback wrong';
+      feedback.innerHTML = '<strong>Salah.</strong> Jawaban benar: ' + q.opsi[q.jawaban];
+    }
+    feedback.style.display = 'block';
+    document.getElementById('quiz-score').textContent = score;
+    document.getElementById('quiz-percent').textContent = Math.round((score / questions.length) * 100) + '%';
+    document.getElementById('next-btn').disabled = false;
+  }
+
+  document.getElementById('next-btn').onclick = () => { currentQuestion++; showQuestion(); };
+  document.getElementById('prev-btn').onclick = () => { if (currentQuestion > 0) { currentQuestion--; showQuestion(); } };
+  function showResults() {
+    document.getElementById('quiz-content').style.display = 'none';
+    document.getElementById('quiz-complete').style.display = 'block';
+    document.getElementById('final-score').textContent = score + '/' + questions.length;
+    const percent = Math.round((score / questions.length) * 100);
+    let message = percent >= 80 ? 'Sempurna!' : percent >= 60 ? 'Bagus!' : percent >= 40 ? 'Cukup baik.' : 'Jangan menyerah!';
+    document.getElementById('quiz-message').textContent = message + ' Kamu dapat ' + score + '/' + questions.length + ' jawaban benar (' + percent + '%).';
+  }
+</script>
+</body>
+</html>

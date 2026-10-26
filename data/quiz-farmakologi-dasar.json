@@ -1,0 +1,76 @@
+{
+  "quiz": [
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Apa Itu Farmakologi?",
+      "pertanyaan": "Apa yang dibahas dalam Apa Itu Farmakologi??",
+      "opsi": [
+        "Farmakologi adalah ilmu tentang obat — dari sejarah, sumber, cara kerja, sampai penggunaan yang aman.",
+        "Apa Itu Farmakologi? adalah bagian dari Farmakologi Dasar",
+        "Materi tentang Apa Itu Farmakologi? dalam konteks farmasi",
+        "Topik penting dalam Farmakologi Dasar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Apa Itu Farmakologi?",
+      "pertanyaan": "Apa definisi dari Definisi?",
+      "opsi": [
+        "Kata 'farmakologi' berasal dari bahasa Yunani: 'pharmakon' berarti obat, dan 'logos' berarti ilmu. Secara luas, farmakologi adalah ilmu pengetahuan te...",
+        "Definisi tentang Definisi dalam Farmakologi Dasar",
+        "Konsep dasar dalam Apa Itu Farmakologi?",
+        "Bagian dari materi Apa Itu Farmakologi?"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Apa Itu Farmakologi?",
+      "pertanyaan": "Apa definisi dari Sejarah Singkat?",
+      "opsi": [
+        "Farmakologi dibagi menjadi periode kuno dan modern. Periode kuno (sebelum tahun 1700) bertumpu pada pengamatan empirik, tercatat dalam Materia Medika ...",
+        "Definisi tentang Sejarah Singkat dalam Farmakologi Dasar",
+        "Konsep dasar dalam Apa Itu Farmakologi?",
+        "Bagian dari materi Apa Itu Farmakologi?"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+      "pertanyaan": "Apa yang dibahas dalam Farmakokinetik: Bagaimana Tubuh Memproses Obat?",
+      "opsi": [
+        "Proses absorpsi, distribusi, metabolisme, dan ekskresi obat yang menentukan konsentrasi obat di tubuh.",
+        "Farmakokinetik: Bagaimana Tubuh Memproses Obat adalah bagian dari Farmakologi Dasar",
+        "Materi tentang Farmakokinetik: Bagaimana Tubuh Memproses Obat dalam konteks farmasi",
+        "Topik penting dalam Farmakologi Dasar"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+      "pertanyaan": "Apa definisi dari Absorpsi?",
+      "opsi": [
+        "Absorpsi adalah masuknya obat ke dalam sirkulasi sistemik. Lokasi absorpsi tergantung pada cara pemberian: oral (usus), topikal (kulit), inhalasi (par...",
+        "Definisi tentang Absorpsi dalam Farmakologi Dasar",
+        "Konsep dasar dalam Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+        "Bagian dari materi Farmakokinetik: Bagaimana Tubuh Memproses Obat"
+      ],
+      "jawaban": 0
+    },
+    {
+      "kategori": "Farmakologi Dasar",
+      "materi": "Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+      "pertanyaan": "Apa definisi dari Distribusi?",
+      "opsi": [
+        "Setelah masuk ke aliran darah, obat beredar ke seluruh tubuh. Distribusi dipengaruhi oleh aliran darah organ, ikatan dengan protein plasma (albumin), ...",
+        "Definisi tentang Distribusi dalam Farmakologi Dasar",
+        "Konsep dasar dalam Farmakokinetik: Bagaimana Tubuh Memproses Obat",
+        "Bagian dari materi Farmakokinetik: Bagaimana Tubuh Memproses Obat"
+      ],
+      "jawaban": 0
+    }
+  ]
+}
